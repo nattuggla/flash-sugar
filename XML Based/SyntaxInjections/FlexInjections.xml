@@ -3,13 +3,13 @@
 <injections>
 
 	<injection name="injections.text.xml.cdata" selector="comment.cdata.xml" action="replace-target">
-		<zone>
+		<zone name="tag.script.mx">
 			<starts-with>
 				<expression>(&lt;)\b(mx:Script)\b&gt;</expression>
 				<capture number="1" name="punctuation.definition.begin"/>
 			</starts-with>
 			<ends-with>
-				<expression>(&lt;/)\b(/mx:Script>)</expression>
+				<expression>(&lt;/mx:Script>)</expression>
 				<capture number="1" name="punctuation.definition.end"/>
 			</ends-with>
 			<subzones>

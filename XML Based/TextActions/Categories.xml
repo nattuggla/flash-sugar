@@ -5,4 +5,7 @@
 		<title>AS3</title>
 	</category>
 
+	<category id="tools.actions.text.Snippets.MX" show="sub">
+		<title>MX</title>
+	</category>
 </action-categories>
