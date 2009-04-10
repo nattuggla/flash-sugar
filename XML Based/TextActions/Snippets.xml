@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-recipes>
+        
+        <snippet id="com.asmike.snippets.for" category="tools.actions.text.Snippets.AS3">
+            <title>for loop</title>
+            <text><![CDATA[for (var $1:uint = 0; $1 < ${2:N}; $1++)
+{
+    $0
+}]]></text>
+            <syntax-context>as3, as3 *</syntax-context>
+            <text-trigger>for</text-trigger>
+        </snippet>
+
+</action-recipes> 
