@@ -1,0 +1,66 @@
+/*
+	@theme ActionScript3 Placeholder
+	@placeholder as3
+*/
+
+@base {
+	color: #333;
+	background-color: #fff;
+}
+
+as3 name {
+	color: #4f9fcf;
+	newcolor: #6fbfff;
+}
+
+as3 keyword {
+	color: #6700b9;
+}
+
+as3 keyword.class {
+	color: #4F9FCF;
+}
+
+as3 keyword.modifier.scope {
+	
+}
+
+
+as3 variable, string.double variable {
+	color: #4F9FCF;
+	newcolor: #6FBFFF;
+}
+
+as3 variable > group {
+	color: #3482da;
+	background-color: #f2fbfe;
+}
+
+as3 definition {
+	color: #d44950;
+}
+
+
+as3 modifier {
+	color: #d48080;
+}
+
+as3 include {
+	color: #555;
+	background-color: #f8f8f8;
+	font-style: italic;
+}
+
+as3 identifier.function {
+	color: #699d36;
+	font-weight: bold;
+}
+
+as3 integer {
+    color: #6700b9;
+	background-color: #fbf2fe;
+}
+
+as3 asDoc.keyword {
+	color: #ad91ba;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Providers map contexts in a document to possible completions. The actual completions are defined in the various CodeSense libraries, categorized using their key. A CodeSense Provider tells Espresso what CodeSense libraries are active in the current context. One of these XML files can contain many <provider> elements.
+
+-->
+<codesense>
+
+	<!-- Globals -->
+	<!--
+	<provider>
+		<selector>*</selector>
+		<completions>zado.as3.global.comment</completions>
+		<complete-match>\/</complete-match>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+-->
+
+	<provider>
+		<selector>container.package, container.class</selector>
+		<completions>zado.as3.access</completions>
+		<complete-match>[a-zA-Z0-9]</complete-match>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+	
+	
+	
+	<provider>
+		<selector>*.as3, package.as3, class.as3</selector>
+		<completions>zado.as3.function</completions>
+		<completions>zado.as3.control</completions>
+		<completions>zado.as3.control.for</completions>
+		<completions>zado.as3.control.dowhile</completions>
+		<completions>zado.as3.control.else</completions>
+		<complete-match>if|sw|el|wh|do|for</complete-match>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+	
+	<provider>
+		<selector>switch.control.as3</selector>
+		<completions>zado.as3.control.case</completions>
+		<completions>zado.as3.control.default</completions>
+		<complete-match>ca|def</complete-match>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+	
+	
+	<provider>
+		<selector>*.as3</selector>
+		<completions>zado.as3.class.toplevel</completions>
+		<completions>zado.as3.class.classes</completions>
+		<complete-match>[a-zA-Z0-9]+</complete-match>
+		<require-prefix>(:|new\s+)</require-prefix>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+
+	<!-- Class -->
+	<provider>
+		<selector>package.as3</selector>
+		<completions>zado.as3.class</completions>
+		<complete-match>cl</complete-match>
+		<require-suffix>(\s|>|^)</require-suffix>
+	</provider>
+	
+</codesense>

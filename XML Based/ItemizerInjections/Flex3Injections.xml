@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<injections>
+
+	<injection name="injections.text.xml.cdatafix" selector="built-in.comment" action="replace-target">
+		<recipe>
+			<class>ESBaseItem</class>
+			<selector>xml.comment</selector>
+			<subrecipes>
+				<include-root-recipes/>
+			</subrecipes
+		</recipe>
+	</injection>
+	
+</injections>
