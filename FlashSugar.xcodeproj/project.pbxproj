@@ -409,7 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = /Applications/Espresso.app/Contents/MacOS/Espresso;
+				BUNDLE_LOADER = "$(ESPRESSO_PATH)/Contents/MacOS/Espresso";
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/Debug";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;

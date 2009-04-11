@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -281,13 +283,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>13</integer>
-									<integer>0</integer>
+									<integer>49</integer>
+									<integer>48</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {280, 714}}</string>
+							<string>{{0, 272}, {280, 714}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -306,7 +307,7 @@
 							<real>280</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>199 141 1508 773 0 0 1680 1028 </string>
+						<string>186 153 1508 773 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,8 +318,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -336,7 +335,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>000957FB0F8FAEBE00463DDA</string>
+										<string>000958160F902B3200463DDA</string>
 										<key>history</key>
 										<array>
 											<string>0035F5ED0F7C3C1800C8EA8E</string>
@@ -439,7 +438,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1206, 509}}</string>
 								<key>RubberWindowFrame</key>
-								<string>199 141 1508 773 0 0 1680 1028 </string>
+								<string>186 153 1508 773 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -459,7 +458,7 @@
 								<key>Frame</key>
 								<string>{{0, 514}, {1206, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>199 141 1508 773 0 0 1680 1028 </string>
+								<string>186 153 1508 773 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -619,10 +618,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>0035F5C10F7C2FB600C8EA8E</string>
 		<string>/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/FlashSugar.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>199 141 1508 773 0 0 1680 1028 </string>
+	<string>186 153 1508 773 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -699,7 +699,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>0035F5C10F7C2FB600C8EA8E</string>
-				<string>001C31D40F8F7AFD008047C9</string>
+				<string>000958170F902B3200463DDA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
