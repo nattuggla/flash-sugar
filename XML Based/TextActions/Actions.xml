@@ -1,21 +1,22 @@
 <?xml version="1.0"?>
 <action-recipes>
-	<action id="com.macrabbit.TextActions.ExampleSugar.MRExampleSugarTagUppercaser" category="actions.text.ExampleSugar">
+	<action id="com.asmike.TextActions.FlashSugar.OpenDocumentation" category="actions.text.AS3/as3.tools.Snippets.documentation">
 	
-		<class>MRExampleSugarTagCaseChanger</class>
-		<title>Uppercase Tag Names</title>
+		<class>ASMOpenDocumentation</class>
+		<title>Open Documentation</title>
 		<setup>
-			<change-to>uppercase</change-to>
+			<initial-url>http://livedocs.adobe.com/flex/3/langref/</initial-url>
 		</setup>
-		
+		<key-equivalent>cmd shift d</key-equivalent>
 	</action>
-	<action id="com.macrabbit.TextActions.ExampleSugar.MRExampleSugarTagLowercaser" category="actions.text.ExampleSugar">
 	
-		<class>MRExampleSugarTagCaseChanger</class>
-		<title>Lowercase Tag Names</title>
+	<action id="com.asmike.TextActions.FlashSugar.Build" category="actions.text.AS3/as3.tools.Snippets.Utilities">
+	
+		<class>ASMFlashBuild</class>
+		<title>Build</title>
 		<setup>
-			<change-to>lowercase</change-to>
+			<initial-url>http://livedocs.adobe.com/flex/3/langref/</initial-url>
 		</setup>
-		
+		<key-equivalent>cmd enter</key-equivalent>
 	</action>
 </action-recipes>

@@ -57,8 +57,13 @@
 }
 
 - (NSImage *)image {
-	NSString* imagePath = @"~/Library/Application Support/Espresso/Sugars/ActionScript3.sugar/Contents/Resources/cog.png";
-	return [[NSImage alloc] initWithContentsOfFile:[imagePath stringByExpandingTildeInPath]];
+	//NSString* imagePath = @"~/Library/Application Support/Espresso/Sugars/ActionScript3.sugar/Contents/Resources/cog.png";
+	
+	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"box" ofType:@"png"];
+	NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
+	[image autorelease];
+	
+	return image;
 }
 
 - (BOOL)isTextualizer

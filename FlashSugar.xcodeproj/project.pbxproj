@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		001184C00F7EA6D6003D300C /* PlaceholderThemes in Copy XML Files */ = {isa = PBXBuildFile; fileRef = 001184BD0F7EA6D6003D300C /* PlaceholderThemes */; };
-		0035F6170F7C4BFD00C8EA8E /* ASMActionScript3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0035F6160F7C4BFD00C8EA8E /* ASMActionScript3Controller.m */; };
 		0041B9530F8458C700F50FCC /* ASMActionScript3ObjectTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0041B9520F8458C700F50FCC /* ASMActionScript3ObjectTagItem.m */; };
 		008D813B0F8D96CA00321E7E /* SyntaxInjections in Copy XML Files */ = {isa = PBXBuildFile; fileRef = 008D81380F8D96CA00321E7E /* SyntaxInjections */; };
 		00D12DEC0F8F7926009F86F2 /* TextActions in Copy XML Files */ = {isa = PBXBuildFile; fileRef = 3DE0B9E60ED3566600EE948E /* TextActions */; };
+		00F8198E0FA346AC00EB3FFE /* ASMOpenDocumentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F8198D0FA346AC00EB3FFE /* ASMOpenDocumentation.m */; };
+		00F819920FA3472800EB3FFE /* Documentation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00F819910FA3472800EB3FFE /* Documentation.xib */; };
+		00F81A370FA3522900EB3FFE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F81A360FA3522900EB3FFE /* WebKit.framework */; };
 		275734CD0F3E9E2F00E59951 /* package.png in Resources */ = {isa = PBXBuildFile; fileRef = 275734CC0F3E9E2F00E59951 /* package.png */; };
 		27703A170F3EB5DF00267E88 /* package_go.png in Resources */ = {isa = PBXBuildFile; fileRef = 27703A160F3EB5DF00267E88 /* package_go.png */; };
 		27703A840F3EC0FE00267E88 /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = 27703A800F3EC0FE00267E88 /* cog.png */; };
@@ -22,7 +24,7 @@
 		27703B570F3F214100267E88 /* flashcommand in Resources */ = {isa = PBXBuildFile; fileRef = 27703B560F3F214100267E88 /* flashcommand */; };
 		27703BF10F3F316F00267E88 /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 27703BF00F3F316F00267E88 /* cup.png */; };
 		27703BFA0F3F31E100267E88 /* script_gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 27703BF90F3F31E100267E88 /* script_gear.png */; };
-		277EC8A90F2B98010061FD60 /* ZDActionScript3Compile.m in Sources */ = {isa = PBXBuildFile; fileRef = 277EC8A60F2B98010061FD60 /* ZDActionScript3Compile.m */; };
+		277EC8A90F2B98010061FD60 /* ASMFlashBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 277EC8A60F2B98010061FD60 /* ASMFlashBuild.m */; };
 		277EC8AA0F2B98010061FD60 /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 277EC8A80F2B98010061FD60 /* TaskWrapper.m */; };
 		277EC8EE0F2B9AC30061FD60 /* ItemizerInjections in Copy XML Files */ = {isa = PBXBuildFile; fileRef = 277EC8DA0F2B9AB20061FD60 /* ItemizerInjections */; };
 		277EC8EF0F2B9AC30061FD60 /* CodeSenseLibraries in Copy XML Files */ = {isa = PBXBuildFile; fileRef = 277EC8DC0F2B9AB20061FD60 /* CodeSenseLibraries */; };
@@ -78,11 +80,13 @@
 
 /* Begin PBXFileReference section */
 		001184BD0F7EA6D6003D300C /* PlaceholderThemes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PlaceholderThemes; sourceTree = "<group>"; };
-		0035F6150F7C4BFD00C8EA8E /* ASMActionScript3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMActionScript3Controller.h; sourceTree = "<group>"; };
-		0035F6160F7C4BFD00C8EA8E /* ASMActionScript3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMActionScript3Controller.m; sourceTree = "<group>"; };
 		0041B9510F8458C700F50FCC /* ASMActionScript3ObjectTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMActionScript3ObjectTagItem.h; sourceTree = "<group>"; };
 		0041B9520F8458C700F50FCC /* ASMActionScript3ObjectTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMActionScript3ObjectTagItem.m; sourceTree = "<group>"; };
 		008D81380F8D96CA00321E7E /* SyntaxInjections */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SyntaxInjections; sourceTree = "<group>"; };
+		00F8198C0FA346AC00EB3FFE /* ASMOpenDocumentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMOpenDocumentation.h; sourceTree = "<group>"; };
+		00F8198D0FA346AC00EB3FFE /* ASMOpenDocumentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMOpenDocumentation.m; sourceTree = "<group>"; };
+		00F819910FA3472800EB3FFE /* Documentation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Documentation.xib; path = "Code/Text Actions/Documentation.xib"; sourceTree = "<group>"; };
+		00F81A360FA3522900EB3FFE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -97,8 +101,8 @@
 		27703BF00F3F316F00267E88 /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cup.png; path = Resources/cup.png; sourceTree = "<group>"; };
 		27703BF90F3F31E100267E88 /* script_gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = script_gear.png; path = Resources/script_gear.png; sourceTree = "<group>"; };
 		27703C0F0F3F597E00267E88 /* git.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = git.sh; path = Scripts/git.sh; sourceTree = "<group>"; };
-		277EC8A50F2B98010061FD60 /* ZDActionScript3Compile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDActionScript3Compile.h; sourceTree = "<group>"; };
-		277EC8A60F2B98010061FD60 /* ZDActionScript3Compile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDActionScript3Compile.m; sourceTree = "<group>"; };
+		277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMFlashBuild.h; sourceTree = "<group>"; };
+		277EC8A60F2B98010061FD60 /* ASMFlashBuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMFlashBuild.m; sourceTree = "<group>"; };
 		277EC8A70F2B98010061FD60 /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskWrapper.h; sourceTree = "<group>"; };
 		277EC8A80F2B98010061FD60 /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskWrapper.m; sourceTree = "<group>"; };
 		277EC8AB0F2B98390061FD60 /* FlashDebugWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashDebugWindow.xib; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				00F81A370FA3522900EB3FFE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +168,7 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				00F819910FA3472800EB3FFE /* Documentation.xib */,
 				27703B580F3F214600267E88 /* Scripts */,
 				275734C90F3E9E1F00E59951 /* icons */,
 				277EC8AB0F2B98390061FD60 /* FlashDebugWindow.xib */,
@@ -186,6 +192,7 @@
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00F81A360FA3522900EB3FFE /* WebKit.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -262,12 +269,10 @@
 		3DE0B8B50ED3261600EE948E /* File Actions */ = {
 			isa = PBXGroup;
 			children = (
-				277EC8A50F2B98010061FD60 /* ZDActionScript3Compile.h */,
-				277EC8A60F2B98010061FD60 /* ZDActionScript3Compile.m */,
+				277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */,
+				277EC8A60F2B98010061FD60 /* ASMFlashBuild.m */,
 				277EC8A70F2B98010061FD60 /* TaskWrapper.h */,
 				277EC8A80F2B98010061FD60 /* TaskWrapper.m */,
-				0035F6150F7C4BFD00C8EA8E /* ASMActionScript3Controller.h */,
-				0035F6160F7C4BFD00C8EA8E /* ASMActionScript3Controller.m */,
 			);
 			path = "File Actions";
 			sourceTree = "<group>";
@@ -292,6 +297,8 @@
 		3DE0B8B70ED3261600EE948E /* Text Actions */ = {
 			isa = PBXGroup;
 			children = (
+				00F8198C0FA346AC00EB3FFE /* ASMOpenDocumentation.h */,
+				00F8198D0FA346AC00EB3FFE /* ASMOpenDocumentation.m */,
 			);
 			path = "Text Actions";
 			sourceTree = "<group>";
@@ -353,6 +360,7 @@
 				27703B570F3F214100267E88 /* flashcommand in Resources */,
 				27703BF10F3F316F00267E88 /* cup.png in Resources */,
 				27703BFA0F3F31E100267E88 /* script_gear.png in Resources */,
+				00F819920FA3472800EB3FFE /* Documentation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,14 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277EC8A90F2B98010061FD60 /* ZDActionScript3Compile.m in Sources */,
+				277EC8A90F2B98010061FD60 /* ASMFlashBuild.m in Sources */,
 				277EC8AA0F2B98010061FD60 /* TaskWrapper.m in Sources */,
 				27F329530F3DC4DF00A9DC7E /* ZDActionScript3PackageTagItem.m in Sources */,
 				27F329A10F3DC74300A9DC7E /* ZDActionScript3ImportTagItem.m in Sources */,
 				27F32B470F3DD88500A9DC7E /* ZDActionScript3ClassTagItem.m in Sources */,
 				27703B010F3EC4CB00267E88 /* ZDActionScript3MethodTagItem.m in Sources */,
-				0035F6170F7C4BFD00C8EA8E /* ASMActionScript3Controller.m in Sources */,
 				0041B9530F8458C700F50FCC /* ASMActionScript3ObjectTagItem.m in Sources */,
+				00F8198E0FA346AC00EB3FFE /* ASMOpenDocumentation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

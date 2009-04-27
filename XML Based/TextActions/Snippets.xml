@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
         
-		<snippet id="com.asmike.snippets.asclass" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.asclass" category="actions.text.AS3/as3.tools.Snippets">
             <title>ActionScript Class</title>
             <text><![CDATA[package $1 {
 	${2:import ${3:flash.display.Sprite};}
@@ -18,21 +18,21 @@
         </snippet>
 		
 		
-		<snippet id="com.asmike.snippets.function" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.function" category="actions.text.AS3/as3.tools.Snippets">
             <title>function</title>
             <text><![CDATA[function $1($2)${3:\:void} $4{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>fun</text-trigger>
         </snippet>
 		
-		<snippet id="com.asmike.snippets.function" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.function" category="actions.text.AS3/as3.tools.Snippets">
             <title>public function</title>
             <text><![CDATA[${1:public} function $2($3)${4:\:void} $5{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>mfun</text-trigger>
         </snippet>
 		
-		<snippet id="com.asmike.snippets.class" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.class" category="actions.text.AS3/as3.tools.Snippets">
             <title>class</title>
             <text><![CDATA[${1:public} class $2 {$0}]]></text>
             <syntax-context>as3, as3 *</syntax-context>
@@ -40,55 +40,55 @@
         </snippet>
 		
 		<!-- control blocks -->
-        <snippet id="com.asmike.snippets.for" category="tools.actions.text.Snippets.AS3">
+        <snippet id="com.asmike.snippets.for" category="actions.text.AS3">
             <title>for</title>
             <text><![CDATA[for (var $1:uint = 0; $1 < ${2:N}; $1++) $3{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>for</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.for-each" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.for-each" category="actions.text.AS3">
             <title>for each</title>
             <text><![CDATA[for each (var $1:uint in $2) $3{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>foreach</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.if" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.if" category="actions.text.AS3">
             <title>if</title>
             <text><![CDATA[if ($1) $2{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>if</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.if-else" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.if-else" category="actions.text.AS3">
             <title>esle if</title>
             <text><![CDATA[if ($1) $2{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>elif</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.else" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.else" category="actions.text.AS3">
             <title>else</title>
             <text><![CDATA[else $2{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>else</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.while" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.while" category="actions.text.AS3">
             <title>while</title>
             <text><![CDATA[while ($1) $2{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>while</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.do-while" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.do-while" category="actions.text.AS3">
             <title>do while</title>
             <text><![CDATA[do $1{$0} while ($2);]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>dowhile</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.switch" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.switch" category="actions.text.AS3">
             <title>switch</title>
             <text><![CDATA[switch ($1) $2{$0}]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
             <text-trigger>switch</text-trigger>
         </snippet>
-		<snippet id="com.asmike.snippets.case" category="tools.actions.text.Snippets.AS3">
+		<snippet id="com.asmike.snippets.case" category="actions.text.AS3">
             <title>case</title>
             <text><![CDATA[case $1: $0 $2break;]]></text>
             <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
@@ -97,7 +97,7 @@
 		
 		
 		
-		<snippet id="com.asmike.snippets.mxApplication" category="tools.actions.text.Snippets.MX">
+		<snippet id="com.asmike.snippets.mxApplication" category="actions.text.MX">
             <title>Application</title>
             <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
 <${1:mx\:Application} xmlns:mx="http://www.adobe.com/2006/mxml" ${2:layout="absolute"}>;
@@ -109,7 +109,7 @@
             <text-trigger>mxapp</text-trigger>
         </snippet>
 		
-		<snippet id="com.asmike.snippets.mxScript" category="tools.actions.text.Snippets.MX">
+		<snippet id="com.asmike.snippets.mxScript" category="actions.text.MX">
             <title>Script</title>
             <text><![CDATA[<mx:Script${1: src="$2"}><[CDATA[ $0 ]]>\]\]&gt;<![CDATA[</mx:Script>]]></text>
             <syntax-context>fx3, fx3 *</syntax-context>

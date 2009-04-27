@@ -1,52 +1,45 @@
-# ActionScript 3 Sugar 0.5.5
-> Updated 3/29/2009
+# ActionScript 3 Sugar 0.6.0
+> Updated 4/27/2009
 
 ## Description
 
 An Espresso Sugar for ActionScript 3 development:
 
 * Syntax Highlighting, Code Completion for many of the classes and reserved words
-* Itemizers with custom icons (FamFamFam)
 * Includes classes from the packages: flash, fl, adobe and air
 * Compilation using Flex 3 SDK, Flash CS3/CS4
-* Espresso is not somewhat aware of MXML files.
+* Support for Flash and Flex stynaxes
+
+## NEW!
+
+* Documentation window added. Actions -> AS3 -> Documentation or cmd + shift + d
+* Fixed compilation support. Actions -> AS3 -> Build or cmd + enter
+* Now You can choose the compiler you want to use after the compiler window launches.
 
 ## Instructions
+
+### Installing Sugar
+
+* From Source
+** Download source, compile with XCode, start Espresso.
+* RCompiled Version
+** Download, double click, start Espresso.
+
+### Configuring Compilers
 
 * Extract Flex 3 SDK to /Developer/SDKs/ as flex_sdk_3
 * Support for CS3 and CS4 built in VIA flashcommand by Mike Chambers (Modified to work with CS4)
 
-> Note: for now you can change the location for the flex sdk by opening:
-> ActionScript3.sugar/File Actions/Actions.xml and modifying < compiler-location >
+## Useage
 
-## NEW!
-
-* If you select a *.as file in the project panel (not in workspace) and hit cmd + enter it will compile with MXMLC.
-* If you have Flash CS4 installed and you have a *.fla file with the same name as the .*as file, it will instead be compiled with Flash SCS4
-** (i.e.) Main.as + Main.fla = Flash CS4 compile with build command. Main.as alone = MXMLC compile.
-* Rewriting the syntax to conform to the Sugar standards
-* Build button added to ActionScript3 Build window
+* While editing an *.as hit cmd + enter or Action -> AS3 -> Build from the menu to build the file.
+* If you have Flash CS3 / CS4 installed and you have a *.fla file with the same name as the .*as file, it will instead be compiled with Flash SCS4
+** (i.e.) Main.as + Main.fla = Flash CS3 / CS4 compile with build command. Main.as alone = MXMLC compile.
 
 ## Bugs / Issues!!
 
-* Placeholder theme may conflict with other themes.
-* Sometimes clicking on on the build button does not start the compiler. Simply close the window and launch a new one.
 * Still buggy so use at your own risk!
-* CMD + Enter shortcut only works if you select the file in the Project List NOT! the Workspace List.
 * Itemizers get confused when multiple curly-brackets are used, usually when creating objects.
-
-## Whats in the works
-
-* Better compilation support
-> There needs to be a settings window for configuring the SDK, and other things related to the sugar
-
-* Fixing a lot of the bugs with the syntax
-* Smarter completion
-> For example you only get completions based on on what you import. If you never import an air or fl package
-> then you never see any of those completions in the list.
-
-* MXML (getting closer)
-> Going the be heavily based off of the XML+HTML Sugar with completion for AS3 within the MXML.
 
 ## Other Info
 
@@ -60,7 +53,7 @@ FlashCommand and this the <ActionScript 3 Sugar> is under MIT License:
 
 The MIT License
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2009 Mike Murray
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

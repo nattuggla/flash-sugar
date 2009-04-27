@@ -37,7 +37,6 @@
 	
 	// Take over the new values from the other item
 	name = [otherItem->name retain];
-	//name = [[NSBundle mainBundle] resourcePath];
 	
 	return YES;
 }
@@ -49,17 +48,20 @@
 
 - (CEItemDecorationType)decorationType
 {
-	return 0;
+	return CEItemDecorationDefault;
 }
 
 - (NSColor *)backgroundColor
 {
-	return [NSColor new];
+	return [NSColor yellowColor];
 }
 
 - (NSImage *)image {
-	NSString* imagePath = @"~/Library/Application Support/Espresso/Sugars/ActionScript3.sugar/Contents/Resources/package.png";
-	return [[NSImage alloc] initWithContentsOfFile:[imagePath stringByExpandingTildeInPath]];
+	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"package" ofType:@"png"];
+	NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
+	[image autorelease];
+	
+	return image;
 }
 
 - (BOOL)isTextualizer
