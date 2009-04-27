@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "ASMActionScript3Controller.h";
 #import "TaskWrapper.h"
 
 

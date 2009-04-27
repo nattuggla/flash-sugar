@@ -1606,7 +1606,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ZDActionScript3Compile.h: 14";
 		rLen = 0;
-		rLoc = 314;
+		rLoc = 274;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1646,7 +1646,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ZDActionScript3Compile.h: 21";
 		rLen = 0;
-		rLoc = 432;
+		rLoc = 392;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 368;
@@ -1686,7 +1686,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 21";
 		rLen = 0;
-		rLoc = 432;
+		rLoc = 392;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 368;
@@ -1706,7 +1706,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 14";
 		rLen = 0;
-		rLoc = 286;
+		rLoc = 246;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 0;
@@ -1756,7 +1756,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 40";
 		rLen = 0;
-		rLoc = 736;
+		rLoc = 696;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 254;
@@ -1786,7 +1786,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 14";
 		rLen = 0;
-		rLoc = 313;
+		rLoc = 273;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 0;
@@ -1836,7 +1836,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 14";
 		rLen = 0;
-		rLoc = 313;
+		rLoc = 273;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 0;
@@ -1856,7 +1856,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 27";
 		rLen = 0;
-		rLoc = 502;
+		rLoc = 462;
 		rType = 0;
 		vrLen = 669;
 		vrLoc = 161;
@@ -1876,7 +1876,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 51";
 		rLen = 0;
-		rLoc = 884;
+		rLoc = 844;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 433;
@@ -1896,7 +1896,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 255;
@@ -1956,7 +1956,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 255;
@@ -2086,7 +2086,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 433;
@@ -2106,7 +2106,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 57";
 		rLen = 0;
-		rLoc = 1105;
+		rLoc = 1065;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 500;
@@ -2206,7 +2206,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 47";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 840;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 395;
@@ -2286,7 +2286,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 55";
 		rLen = 0;
-		rLoc = 1012;
+		rLoc = 972;
 		rType = 0;
 		vrLen = 645;
 		vrLoc = 553;
@@ -2306,7 +2306,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 59";
 		rLen = 86;
-		rLoc = 1107;
+		rLoc = 1067;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 527;
@@ -2366,7 +2366,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 21";
 		rLen = 0;
-		rLoc = 253;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 0;
@@ -2426,7 +2426,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 12";
 		rLen = 0;
-		rLoc = 253;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 0;
@@ -2556,7 +2556,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 12";
 		rLen = 0;
-		rLoc = 253;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 645;
 		vrLoc = 553;
@@ -2576,7 +2576,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 12";
 		rLen = 0;
-		rLoc = 253;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 527;
@@ -2606,7 +2606,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 12";
 		rLen = 0;
-		rLoc = 253;
+		rLoc = 213;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 527;
@@ -2646,7 +2646,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 62";
 		rLen = 0;
-		rLoc = 1194;
+		rLoc = 1154;
 		rType = 0;
 		vrLen = 624;
 		vrLoc = 576;
@@ -2666,7 +2666,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 13";
 		rLen = 0;
-		rLoc = 254;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 0;
@@ -2686,7 +2686,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 13";
 		rLen = 0;
-		rLoc = 254;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 605;
 		vrLoc = 254;
@@ -2706,7 +2706,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 13";
 		rLen = 0;
-		rLoc = 254;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 624;
 		vrLoc = 576;
@@ -2726,7 +2726,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 54";
 		rLen = 0;
-		rLoc = 1012;
+		rLoc = 972;
 		rType = 0;
 		vrLen = 624;
 		vrLoc = 576;
@@ -2746,7 +2746,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 53";
 		rLen = 0;
-		rLoc = 1012;
+		rLoc = 972;
 		rType = 0;
 		vrLen = 616;
 		vrLoc = 502;
@@ -2766,7 +2766,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 54";
 		rLen = 80;
-		rLoc = 931;
+		rLoc = 891;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 500;
@@ -2776,7 +2776,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 55";
 		rLen = 0;
-		rLoc = 1011;
+		rLoc = 971;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 0;
@@ -2806,7 +2806,7 @@
 		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
 		name = "ASMFlashBuild.h: 55";
 		rLen = 0;
-		rLoc = 1011;
+		rLoc = 971;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 0;
@@ -2852,6 +2852,72 @@
 		vrLoc = 5412;
 	};
 	00ACA3C80FA5598600857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 001059290FA3AD1C009364B9 /* ActionScript3.xml */;
+		name = "ActionScript3.xml: 81";
+		rLen = 0;
+		rLoc = 2984;
+		rType = 0;
+		vrLen = 1820;
+		vrLoc = 2228;
+	};
+	00ACA3CD0FA55A3E00857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: ASMActionScript3Controller.h: No such file or directory";
+		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	00ACA3CE0FA55A3E00857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
+		name = "ASMFlashBuild.h: 8";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 0;
+	};
+	00ACA3D60FA55A5700857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8A60F2B98010061FD60 /* ASMFlashBuild.m */;
+		name = "ASMFlashBuild.m: 209";
+		rLen = 0;
+		rLoc = 5707;
+		rType = 0;
+		vrLen = 678;
+		vrLoc = 5412;
+	};
+	00ACA3D70FA55A5700857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: ASMActionScript3Controller.h: No such file or directory";
+		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	00ACA3D80FA55A5700857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8A60F2B98010061FD60 /* ASMFlashBuild.m */;
+		name = "ASMFlashBuild.m: 209";
+		rLen = 0;
+		rLoc = 5707;
+		rType = 0;
+		vrLen = 678;
+		vrLoc = 5412;
+	};
+	00ACA3D90FA55A5700857CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */;
+		name = "ASMFlashBuild.h: 10";
+		rLen = 0;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 642;
+		vrLoc = 0;
+	};
+	00ACA3DA0FA55A5700857CAF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 001059290FA3AD1C009364B9 /* ActionScript3.xml */;
 		name = "ActionScript3.xml: 81";
@@ -3414,6 +3480,13 @@
 			00ACA3C20FA5598600857CAF /* PBXTextBookmark */ = 00ACA3C20FA5598600857CAF /* PBXTextBookmark */;
 			00ACA3C30FA5598600857CAF /* PBXTextBookmark */ = 00ACA3C30FA5598600857CAF /* PBXTextBookmark */;
 			00ACA3C80FA5598600857CAF /* PBXTextBookmark */ = 00ACA3C80FA5598600857CAF /* PBXTextBookmark */;
+			00ACA3CD0FA55A3E00857CAF /* PBXTextBookmark */ = 00ACA3CD0FA55A3E00857CAF /* PBXTextBookmark */;
+			00ACA3CE0FA55A3E00857CAF /* PBXTextBookmark */ = 00ACA3CE0FA55A3E00857CAF /* PBXTextBookmark */;
+			00ACA3D60FA55A5700857CAF /* PBXTextBookmark */ = 00ACA3D60FA55A5700857CAF /* PBXTextBookmark */;
+			00ACA3D70FA55A5700857CAF /* PBXTextBookmark */ = 00ACA3D70FA55A5700857CAF /* PBXTextBookmark */;
+			00ACA3D80FA55A5700857CAF /* PBXTextBookmark */ = 00ACA3D80FA55A5700857CAF /* PBXTextBookmark */;
+			00ACA3D90FA55A5700857CAF /* PBXTextBookmark */ = 00ACA3D90FA55A5700857CAF /* PBXTextBookmark */;
+			00ACA3DA0FA55A5700857CAF /* PBXTextBookmark */ = 00ACA3DA0FA55A5700857CAF /* PBXTextBookmark */;
 			00D12DD60F8EFCD4009F86F2 = 00D12DD60F8EFCD4009F86F2 /* PBXTextBookmark */;
 			00D12DF70F8F7930009F86F2 = 00D12DF70F8F7930009F86F2 /* PBXTextBookmark */;
 			00D12DF90F8F7930009F86F2 = 00D12DF90F8F7930009F86F2 /* PBXTextBookmark */;
@@ -3447,17 +3520,17 @@
 	};
 	277EC8A50F2B98010061FD60 /* ASMFlashBuild.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {974, 896}}";
-			sepNavSelRange = "{1011, 0}";
-			sepNavVisRange = "{0, 680}";
+			sepNavIntBoundsRect = "{{0, 0}, {906, 882}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 642}";
 			sepNavWindowFrame = "{{15, 51}, {1035, 827}}";
 		};
 	};
 	277EC8A60F2B98010061FD60 /* ASMFlashBuild.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {906, 3472}}";
-			sepNavSelRange = "{5258, 0}";
-			sepNavVisRange = "{5412, 678}";
+			sepNavSelRange = "{5707, 0}";
+			sepNavVisRange = "{5450, 661}";
 			sepNavWindowFrame = "{{241, 196}, {750, 558}}";
 		};
 	};
