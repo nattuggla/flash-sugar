@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<injections>
+
+	<injection name="injections.text.xml.cdata" selector="comment.cdata.xml" action="replace-target">
+		<zone name="tag.script.mx">
+			<starts-with>
+				<expression>(&lt;)\b(mx:Script)\b&gt;</expression>
+				<capture number="1" name="punctuation.definition.begin"/>
+			</starts-with>
+			<ends-with>
+				<expression>(&lt;/mx:Script>)</expression>
+				<capture number="1" name="punctuation.definition.end"/>
+			</ends-with>
+			<subzones>
+				<include syntax="sourcecode.as3" />
+				<!--<zone name="comment.cdata.mxml">
+					<starts-with>
+						<expression>&lt;!\[CDATA\[</expression>
+						<capture number="0" name="punctuation.definition.begin"/>
+					</starts-with>
+					<ends-with>
+						<expression>\]\]></expression>
+						<capture number="0" name="punctuation.definition.end"/>
+					</ends-with>
+					<subzones>
+						<include syntax="sourcecode.as3" />
+					</subzones>
+				</zone>-->
+			</subzones>
+		</zone>
+	</injection>
+	
+</injections>

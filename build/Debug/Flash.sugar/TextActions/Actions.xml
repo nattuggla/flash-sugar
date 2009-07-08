@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<action-recipes>
+	<action id="com.asmike.TextActions.FlashSugar.OpenDocumentation" category="actions.text.AS3/as3.tools.Snippets.documentation">
+	
+		<class>ASMOpenDocumentation</class>
+		<title>Open Documentation</title>
+		<setup>
+			<initial-url>http://livedocs.adobe.com/flex/3/langref/</initial-url>
+		</setup>
+		<key-equivalent>cmd shift d</key-equivalent>
+	</action>
+	
+	<action id="com.asmike.TextActions.FlashSugar.Build" category="actions.text.AS3/as3.tools.Snippets.Utilities">
+	
+		<class>ASMFlashBuild</class>
+		<title>Build</title>
+		<setup>
+			<initial-url>http://livedocs.adobe.com/flex/3/langref/</initial-url>
+		</setup>
+		<key-equivalent>cmd enter</key-equivalent>
+	</action>
+</action-recipes>

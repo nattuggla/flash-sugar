@@ -267,7 +267,7 @@
 		<!-- Keywords -->
 		<collection name="keyword.as3">
 			<zone name="keyword.definition.as3">
-				<expression>\b(package|class|function|import|interface|extends|implements)</expression>
+				<expression>\b(package|class|function|import|interface|extends|implements|var|new|this|const|void)</expression>
 			</zone>
 			<zone name="keyword.definition.class.top-level.as3">
 				<expression>\b(R(e(ferenceError|gExp)|angeError)|XML(List)?|Math|Boolean|int|S(yntaxError|tring|ecurityError)|N(umber|amespace)|Class|uint|TypeError|Object|D(efinitionError|ate)|URIError|E(valError|rror)|arguments|VerifyError|QName|Function|Ar(ray|gumentError))\b</expression>
@@ -287,6 +287,9 @@
             </zone>
 			<zone name="keyword.modifier.scope.as3">
 				<expression>\b(public|private|protected|static|dynamic|override)</expression>
+			</zone>
+			<zone name="keyword.control.operators.as3">
+				<expression>\b(==|=|&lt;|&lt;)</expression>
 			</zone>
 		</collection>
 		

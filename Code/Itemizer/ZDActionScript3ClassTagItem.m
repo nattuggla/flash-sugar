@@ -67,8 +67,14 @@
 }
 
 - (NSImage *)image {
-	NSString* imagePath = @"~/Library/Application Support/Espresso/Sugars/ActionScript3.sugar/Contents/Resources/script_gear.png";
-	return [[NSImage alloc] initWithContentsOfFile:[imagePath stringByExpandingTildeInPath]];
+	//NSString* imagePath = @"~/Library/Application Support/Espresso/Sugars/FlashSugar.sugar/Contents/Resources/script_gear.png";
+	//return [[NSImage alloc] initWithContentsOfFile:[imagePath stringByExpandingTildeInPath]];
+	
+	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"script_gear" ofType:@"png"];
+	NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
+	[image autorelease];
+	
+	return image;
 }
 
 - (BOOL)isTextualizer

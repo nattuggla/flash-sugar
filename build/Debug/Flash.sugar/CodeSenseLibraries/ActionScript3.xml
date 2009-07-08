@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+
+    <!-- A completion behavior can customize the behavior of a completion when 
+         it's selected in the completion list. If a behavior is defined in the 
+         root <codesense> element, it will be applied to all completion sets 
+         inside (unless more specific behaviors are defined in the sets). -->
+    
+	<behavior>
+		<confirm characters=";" />
+    </behavior>
+	
+	<set name="zado.as3.global.comment">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>\n ${1} \n \*\/</transform-into>
+			</append-dynamic>
+			
+		</behavior>
+		
+		<completion string="/*" />
+		<completion string="/**" />
+    </set>
+	
+	<set name="zado.as3.access">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into> $0</transform-into>
+			</append-dynamic>
+			
+		</behavior>
+		
+		<completion string="public" />
+		<completion string="private" />
+		<completion string="protected" />
+		<completion string="dynamic" />
+		<completion string="override" />
+		<completion string="static" />
+		<completion string="final" />
+		
+    </set>
+
+
+    <set name="zado.as3.import">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into> ${1}</transform-into>
+			</append-dynamic>
+			<confirm characters=";" />
+		</behavior>
+
+		<completion string="import" />
+
+    </set>
+
+	<set name="zado.as3.packages">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>${1}</transform-into>
+			</append-dynamic>
+			<confirm characters="." />
+		</behavior>
+        <completion string="adobe.utils" />
+		<completion string="air.net" />
+		<completion string="fl.accessibility" />
+		<completion string="fl.containers" />
+		<completion string="fl.controls" />
+		<completion string="fl.controls.dataGridClasses" />
+		<completion string="fl.controls.listClasses" />
+		<completion string="fl.controls.progressBarClasses" />
+		<completion string="fl.core" />
+		<completion string="fl.data" />
+		<completion string="fl.events" />
+		<completion string="fl.lang" />
+		<completion string="fl.livepreview" />
+		<completion string="fl.managers" />
+		<completion string="fl.motion" />
+		<completion string="fl.motion.easing" />
+		<completion string="fl.transitions" />
+		<completion string="fl.transitions.easing" />
+		<completion string="fl.video" />
+		<completion string="flash.accessibility" />
+		<completion string="flash.data" />
+		<completion string="flash.desktop" />
+		<completion string="flash.display" />
+		<completion string="flash.errors" />
+		<completion string="flash.events" />
+		<completion string="flash.external" />
+		<completion string="flash.filesystem" />
+		<completion string="flash.filters" />
+		<completion string="flash.geom" />
+		<completion string="flash.html" />
+		<completion string="flash.media" />
+		<completion string="flash.net" />
+		<completion string="flash.printing" />
+		<completion string="flash.profiler" />
+		<completion string="flash.sampler" />
+		<completion string="flash.security" />
+		<completion string="flash.system" />
+		<completion string="flash.text" />
+		<completion string="flash.ui" />
+		<completion string="flash.utils" />
+		<completion string="flash.xml" />
+    </set>
+	
+	<set name="flash.accessibility.classes">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>${1}</transform-into>
+			</append-dynamic>
+			
+		</behavior>
+		
+        <completion string="Accessibility" />
+		<completion string="AccImpl" />
+    </set>
+	
+    
+	<set name="zado.as3.class.toplevel">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into></transform-into>
+			</append-dynamic>
+			
+		</behavior>
+		
+        <completion string="int" />
+		<completion string="Boolean" />
+		<completion string="String" />
+		<completion string="void" />
+    </set>
+</codesense>

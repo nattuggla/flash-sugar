@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+
+    <!-- A completion behavior can customize the behavior of a completion when 
+         it's selected in the completion list. If a behavior is defined in the 
+         root <codesense> element, it will be applied to all completion sets 
+         inside (unless more specific behaviors are defined in the sets). -->
+	<set name="com.asmike.mxml.tags">
+	
+		<!-- Default behavior -->
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::>$0&lt;/${completion}>)</transform-into>
+			</append-dynamic>
+			
+		</behavior>
+		
+		
+		<completion string="mx:Alert" />
+		<completion string="mx:ApplicationControlBar" />
+		<completion string="mx:Button" />
+		<completion string="mx:CheckBox" />
+		<completion string="mx:ComboBox" />
+		<completion string="mx:DataGrid" />
+		<completion string="mx:DateField" />
+		<completion string="mx:DateChooser" />
+		<completion string="mx:HorizontalList" />
+		<completion string="mx:HRule" />
+		<completion string="mx:HSlider" />
+		<completion string="mx:HTTPService" />
+		<completion string="mx:Image" />
+		<completion string="mx:Label" />
+		<completion string="mx:Link" />
+		<completion string="mx:List" />
+		<completion string="mx:Menu" />
+		<completion string="mx:MenuBar" />
+		<completion string="mx:NumericStepper " />
+		<completion string="mx:PopUpButton" />
+		<completion string="mx:PopUpMenuButton" />
+		<completion string="mx:PrintDataGrid" />
+		<completion string="mx:RadioButton" />
+		<completion string="mx:RemoteObject" />
+		<completion string="mx:RichTextEditor" />
+		<completion string="mx:TabBar" />
+		<completion string="mx:Text" />
+		<completion string="mx:TextArea" />
+		<completion string="mx:TextInput" />
+		<completion string="mx:Tree" />
+		<completion string="mx:Slider" />
+		<completion string="mx:Spacer" />
+		<completion string="mx:SWFLoader" />
+		<completion string="mx:TileList" />
+		<completion string="mx:VideoDisplay" />
+		<completion string="mx:VRule" />
+		<completion string="mx:VSlider" />
+		<completion string="mx:WebService" />
+		<completion string="mx:XML" />
+		<completion string="mx:CreditCardValidator" />
+		<completion string="mx:DateValidator" />
+		<completion string="mx:EmailValidator" />
+		<completion string="mx:NumberValidator" />
+		<completion string="mx:PhoneNumberValidator" />
+		<completion string="mx:SocialSecurityValidator" />
+		<completion string="mx:StringValidator" />
+		<completion string="mx:ZipCodeValidator" />
+		<completion string="mx:CurrencyFormatter" />
+		<completion string="mx:DateFormatter" />
+		<completion string="mx:NumberFormatter" />
+		<completion string="mx:PhoneFormatter" />
+		<completion string="mx:ZipCodeFormatter" />
+		
+		
+		<completion string="mx:Accordion" />
+		<completion string="mx:Box" />
+		<completion string="mx:ButtonBar" />
+		<completion string="mx:Canvas" />
+		<completion string="mx:DividedBox" />
+		<completion string="mx:Effect" />
+		<completion string="mx:Form" />
+		<completion string="mx:Grid" />
+		<completion string="mx:HBox" />
+		<completion string="mx:HDividedBox" />
+		<completion string="mx:LinkBar" />
+		<completion string="mx:LinkButton" />
+		<completion string="mx:Model" />
+		<completion string="mx:Module" />
+		<completion string="mx:MetaData" />
+		<completion string="mx:Panel" />
+		<completion string="mx:RadioGroup" />
+		<completion string="mx:Repeater" />
+		<completion string="mx:Script" />
+		<completion string="mx:Style" />
+		<completion string="mx:TabNavigator" />
+		<completion string="mx:TitleWindow" />
+		<completion string="mx:Tile" />
+		<completion string="mx:ToggleButtonBar" />
+		<completion string="mx:VBox" />
+		<completion string="mx:VDividedBox" />
+		<completion string="mx:ViewStack" />
+		<completion string="mx:XML" />
+		<completion string="mx:XMLList" />
+		
+	</set>
+
+</codesense>

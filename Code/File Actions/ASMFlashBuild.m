@@ -100,8 +100,7 @@ NSString * const FLASH_CS4_FLAG		= @"-f";
         [compileTask release];
         compileTask=nil;
     }
-    else
-    {
+    else {
 		fileToCompile = [withFile retain];
 		
 		//NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
@@ -114,7 +113,7 @@ NSString * const FLASH_CS4_FLAG		= @"-f";
 		
 		if([fileExtenstion isEqualToString:@"as"]) {
 			
-			// If we're using the Flash IDE as out compiler then look for a matching FLA file.
+			// If we're using the Flash IDE as our compiler then look for a matching FLA file.
 			if([compileUsing isEqualToString:FLASH_CS4] || [compileUsing isEqualToString:FLASH_CS3]) {
 				
 				NSString *flaFilePath = [fileToCompile stringByReplacingOccurrencesOfString:@".as" withString:@".fla"];
@@ -138,6 +137,7 @@ NSString * const FLASH_CS4_FLAG		= @"-f";
 					//[args addObjectsFromArray:[NSArray arrayWithObjects:compilerLocation,fileToCompile,nil]];
 					
 					// If were using FLASH CS4 then insert this flag before all the others
+					// With my modifications to flashcommand, this will work with flash CS4
 					if([compileUsing isEqualToString:FLASH_CS4])
 						[args insertObject:@"-f" atIndex:1];
 					

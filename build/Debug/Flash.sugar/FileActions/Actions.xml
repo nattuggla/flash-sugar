@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<action-recipes>
+	<action id="com.asmike.FileActions.ActionScript3.MXMLC" category="actions.file.ActionScript3">
+	
+		<class>ZDActionScript3Compile</class>
+		<title>Compile with MXMLC</title>
+		<when-disabled>hide</when-disabled>
+		<setup>
+			<compile-using>mxmlc</compile-using>
+			<compiler-location>/Developer/SDKs/flex_sdk_3/bin/mxmlc</compiler-location>
+			<extensions>
+				<array>
+					<string>as</string>
+					<string>mxml</string>
+				</array>
+			</extensions>
+		</setup>
+	</action>
+	<action id="com.asmike.FileActions.ActionScript3.CS3" category="actions.file.ActionScript3">
+	
+		<class>ZDActionScript3Compile</class>
+		<title>Compile with Flash CS3</title>
+		<when-disabled>hide</when-disabled>
+		
+		<setup>
+			<compile-using>cs3</compile-using>
+			<compiler-location>/Developer/SDKs/flashcommand</compiler-location>
+			<extensions>
+				<array>
+					<string>fla</string>
+				</array>
+			</extensions>
+		</setup>
+		
+	</action>
+	<action id="com.asmike.FileActions.ActionScript3.CS4" category="actions.file.ActionScript3">
+	
+		<class>ZDActionScript3Compile</class>
+		<title>Compile with Flash CS4</title>
+		<when-disabled>hide</when-disabled>
+		<setup>
+			<compile-using>cs4</compile-using>
+			<compiler-location>/Developer/SDKs/flashcommand</compiler-location>
+			<extensions>
+				<array>
+					<string>fla</string>
+				</array>
+			</extensions>
+		</setup>
+		
+	</action>
+</action-recipes>

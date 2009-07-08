@@ -60,7 +60,7 @@
 - (NSImage *)image {
 	//NSString* imagePath = @"~/Library/Application Support/Espresso/Sugars/ActionScript3.sugar/Contents/Resources/box.png";
 	
-	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"box" ofType:@"png"];
+	NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"package" ofType:@"png"];
 	NSImage *image = [[NSImage alloc] initWithContentsOfFile:path];
 	[image autorelease];
 	
