@@ -18,6 +18,7 @@
 			<include collection="contaner.import.as3" />
 			<include collection="container.class.as3" />
 			<include collection="container.method.as3" />
+			<include collection="container.method.call.as3" />
 			<include collection="container.block.as3" />
 			<include collection="keyword.as3" />
 			<include collection="delimiter.as3" />
@@ -62,6 +63,15 @@
 				<subzones>
 					<include collection="container.block.subzones.as3" />
 				</subzones>
+			</zone>
+		</collection>
+		
+		<!-- Function Call -->
+		<collection name="container.method.call.as3">
+			<zone name="container.method.call.as3">
+				<expression>([a-zA-Z_$]\w*)?\s*(\()</expression>
+				<capture number="1" name="keyword.definition.function.as3" />
+				<capture number="2" name="name.as3" />
 			</zone>
 		</collection>
 		
@@ -202,6 +212,7 @@
 	        <include collection="literal.string.as3" />
 	        <include collection="literal.numeric.as3" />
 	        <include collection="keyword.as3" />
+			<include collection="keyword.method.call.as3" />
 		</collection>
 		<!-- End from PHP Sugar -->
 		
@@ -267,7 +278,7 @@
 		<!-- Keywords -->
 		<collection name="keyword.as3">
 			<zone name="keyword.definition.as3">
-				<expression>\b(package|class|function|import|interface|extends|implements|var|new|this|const|void)</expression>
+				<expression>\b(package|class|function|import|interface|extends|implements|var|new|this|const|void|as)</expression>
 			</zone>
 			<zone name="keyword.definition.class.top-level.as3">
 				<expression>\b(R(e(ferenceError|gExp)|angeError)|XML(List)?|Math|Boolean|int|S(yntaxError|tring|ecurityError)|N(umber|amespace)|Class|uint|TypeError|Object|D(efinitionError|ate)|URIError|E(valError|rror)|arguments|VerifyError|QName|Function|Ar(ray|gumentError))\b</expression>

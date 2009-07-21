@@ -56,7 +56,7 @@ as3 identifier.function {
 	font-weight: bold;
 }
 
-as3 integer {
+as3 numeric {
     color: #6700b9;
 	background-color: #fbf2fe;
 }

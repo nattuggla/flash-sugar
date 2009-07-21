@@ -1,4 +1,4 @@
-# ActionScript 3 Sugar 0.6.0
+# ActionScript 3 Sugar 0.6.6
 > Updated 4/27/2009
 
 ## Description
@@ -10,11 +10,10 @@ An Espresso Sugar for ActionScript 3 development:
 * Compilation using Flex 3 SDK, Flash CS3/CS4
 * Support for Flash and Flex stynaxes
 
-## NEW!
-
-* Documentation window added. Actions -> AS3 -> Documentation or cmd + shift + d
-* Fixed compilation support. Actions -> AS3 -> Build or cmd + enter
-* Now You can choose the compiler you want to use after the compiler window launches.
+(Maybe removed in future)
+* Documentation window. Actions -> AS3 -> Documentation or cmd + shift + d
+* Compilation support. Actions -> AS3 -> Build or cmd + enter
+* Can choose the compiler you want to use after the compiler window launches.
 
 ## Instructions
 

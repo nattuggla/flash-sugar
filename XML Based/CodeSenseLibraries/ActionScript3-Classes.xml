@@ -13,11 +13,6 @@
 	
 	<!-- Packages -->
 	
-	
-	
-	
-	
-	
 	<set name="com.as3.package.accessibility">
 		<behavior>
 			<append-dynamic>

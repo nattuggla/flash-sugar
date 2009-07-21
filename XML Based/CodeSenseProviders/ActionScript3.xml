@@ -10,6 +10,9 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<selector>as3, fx3 > tag.script.mx</selector>
 		<completions>zado.as3.class.toplevel</completions>
 		<completions>zado.as3.class.classes</completions>
+		<completions>zado.as3.import</completions>
+		<completions>zado.as3.common-methods</completions>
+		<completions>zado.as3.common-properties</completions>
 		<complete-match>[a-zA-Z0-9]+</complete-match>
 		<require-prefix>:</require-prefix>
 	</provider>
