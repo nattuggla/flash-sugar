@@ -26,6 +26,7 @@
 	        <include collection="literal.numeric" />
 			<include collection="literal.keyword" />
 			<include collection="literal.collection" />
+			<include collection="literal.regexp" />
 			<include collection="metadata.comment" />
 		</collection>
 		
@@ -57,7 +58,7 @@
 					<capture number="3" name="delimiter.balanced.parenthesis.condition.begin.as3"/>
 				</starts-with>
 				<ends-with>
-					<expression>\)(:[a-zA-Z\w]*)?</expression>
+					<expression>(\))(:[a-zA-Z\w]*)?</expression>
 					<capture number="1" name="delimiter.balanced.parenthesis.condition.end.as3"/>
 				</ends-with>
 				<subzones>
@@ -71,7 +72,7 @@
 			<zone name="container.method.call.as3">
 				<expression>([a-zA-Z_$]\w*)?\s*(\()</expression>
 				<capture number="1" name="keyword.definition.function.as3" />
-				<capture number="2" name="name.as3" />
+				<!--<capture number="2" name="name.as3" />-->
 			</zone>
 		</collection>
 		
@@ -211,6 +212,7 @@
 	        <include collection="identifier.class.as3" />
 	        <include collection="literal.string.as3" />
 	        <include collection="literal.numeric.as3" />
+			<include collection="literal.regexp" />
 	        <include collection="keyword.as3" />
 			<include collection="keyword.method.call.as3" />
 		</collection>
@@ -278,7 +280,7 @@
 		<!-- Keywords -->
 		<collection name="keyword.as3">
 			<zone name="keyword.definition.as3">
-				<expression>\b(package|class|function|import|interface|extends|implements|var|new|this|const|void|as)</expression>
+				<expression>\b(package|class|function|import|interface|extends|implements|var|new|this|const|void|as|in)</expression>
 			</zone>
 			<zone name="keyword.definition.class.top-level.as3">
 				<expression>\b(R(e(ferenceError|gExp)|angeError)|XML(List)?|Math|Boolean|int|S(yntaxError|tring|ecurityError)|N(umber|amespace)|Class|uint|TypeError|Object|D(efinitionError|ate)|URIError|E(valError|rror)|arguments|VerifyError|QName|Function|Ar(ray|gumentError))\b</expression>
@@ -336,6 +338,7 @@
                 </ends-with>
                 <subzones>
                     <include collection="identifier.variable" />
+					<include collection="literal.regexp" />
                     <zone name="literal.escape.brief">
                         <!-- 'A single-quoted string with \'escape sequences\'' -->
                         <expression>(\\)("|\\)</expression>
@@ -425,7 +428,14 @@
             	<expression>\bprint\b</expression>
             </zone>
         </collection>
-
+		
+		<!-- Regular expression syntax -->
+		<collection name="literal.regexp">
+			<zone name="literal.regexp.definition">
+				<expression>(/)([a-zA-Z0-9\s\w\[\]\"\'])+(/)([a-zA-Z])+</expression>
+			</zone>
+		</collection>
+		
 		<!-- Metadata grabbed from PHP.sugar-->
 		<collection name="metadata.comment">
 			<!-- // comment -->
@@ -443,7 +453,7 @@
 				<ends-with>
 					<expression>(\**)(\*/)</expression>
 					<capture number="2" name="delimiter.separator.slash.single-asterisk.comment.end"/>
-				</ends-with>
+				</ends-with><!--
 				<subzones>
 					<zone name="comment.line">
 						<starts-with>
@@ -461,7 +471,7 @@
 							</zone>
 						</subzones>
 					</zone>
-				</subzones>
+				</subzones>-->
 			</zone>			
 			<zone name="metadata.comment.block">
 				<starts-with>
