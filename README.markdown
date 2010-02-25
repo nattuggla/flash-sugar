@@ -1,7 +1,7 @@
 # Flash Sugar Beta 8
 Updated 2/24/2010  
 Mike Murray [wizaado.com](http://wizaado.com)  
-© 2010 Mike Murray  
+&copy; 2010 Mike Murray  
 License: [GNU GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html)  
 
 ## About
