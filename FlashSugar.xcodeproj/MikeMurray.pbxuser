@@ -1,26 +1,492 @@
 // !$*UTF8*$!
 {
-	0022C946104639E4007148DA /* PBXTextBookmark */ = {
+	000C751511276A0C00D5C140 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 003E8A9310157775006D0E7D /* Flex3.xml */;
-		name = "Flex3.xml: 1";
+		fRef = 0093D05011275A7900306D21 /* Actions.xml */;
+		name = "Actions.xml: 5";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 0;
+	};
+	000C759011278F3000D5C140 /* FlashSugarController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FlashSugarController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/FlashSugarController.h;
+		sourceTree = "<absolute>";
+	};
+	000C759111278F3000D5C140 /* FlashSugarController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FlashSugarController.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/FlashSugarController.m;
+		sourceTree = "<absolute>";
+	};
+	000C759311278FC000D5C140 /* BuildController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BuildController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildController.h;
+		sourceTree = "<absolute>";
+	};
+	000C759411278FC000D5C140 /* BuildController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BuildController.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildController.m;
+		sourceTree = "<absolute>";
+	};
+	000C759511278FC000D5C140 /* BuildOption.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BuildOption.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildOption.h;
+		sourceTree = "<absolute>";
+	};
+	000C759611278FC000D5C140 /* BuildOption.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BuildOption.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildOption.m;
+		sourceTree = "<absolute>";
+	};
+	000C759711278FC000D5C140 /* BuildSource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BuildSource.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildSource.h;
+		sourceTree = "<absolute>";
+	};
+	000C759811278FC000D5C140 /* BuildSource.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BuildSource.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildSource.m;
+		sourceTree = "<absolute>";
+	};
+	000C759911278FC000D5C140 /* BuildTask.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BuildTask.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildTask.h;
+		sourceTree = "<absolute>";
+	};
+	000C759A11278FC000D5C140 /* BuildTask.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BuildTask.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildTask.m;
+		sourceTree = "<absolute>";
+	};
+	000C759D11278FC000D5C140 /* FlashTrace.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FlashTrace.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/FlashTrace.h;
+		sourceTree = "<absolute>";
+	};
+	000C759E11278FC000D5C140 /* FlashTrace.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FlashTrace.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/FlashTrace.m;
+		sourceTree = "<absolute>";
+	};
+	000C75A211278FC000D5C140 /* FlexDebugger.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FlexDebugger.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/FlexDebugger.m;
+		sourceTree = "<absolute>";
+	};
+	000C75A311278FC000D5C140 /* MainApplicationView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MainApplicationView.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MainApplicationView.h;
+		sourceTree = "<absolute>";
+	};
+	000C75A711278FC000D5C140 /* MenuDataSource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MenuDataSource.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MenuDataSource.h;
+		sourceTree = "<absolute>";
+	};
+	000C75A911278FC000D5C140 /* MenuItem.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MenuItem.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MenuItem.h;
+		sourceTree = "<absolute>";
+	};
+	000C75AA11278FC000D5C140 /* MenuItem.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MenuItem.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MenuItem.m;
+		sourceTree = "<absolute>";
+	};
+	000C75AB11278FC000D5C140 /* MenuItemCell.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MenuItemCell.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MenuItemCell.h;
+		sourceTree = "<absolute>";
+	};
+	000C75AC11278FC000D5C140 /* MenuItemCell.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MenuItemCell.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MenuItemCell.m;
+		sourceTree = "<absolute>";
+	};
+	000C75AD11278FC000D5C140 /* MenuOutlineView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MenuOutlineView.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MenuOutlineView.h;
+		sourceTree = "<absolute>";
+	};
+	000C75B011278FC000D5C140 /* MyDocument.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MyDocument.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MyDocument.m;
+		sourceTree = "<absolute>";
+	};
+	000C75B111278FC000D5C140 /* OutputMessage.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = OutputMessage.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/OutputMessage.h;
+		sourceTree = "<absolute>";
+	};
+	000C75B911278FC000D5C140 /* PreferencesController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PreferencesController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/PreferencesController.h;
+		sourceTree = "<absolute>";
+	};
+	000C75BB11278FC000D5C140 /* ProjectController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ProjectController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectController.h;
+		sourceTree = "<absolute>";
+	};
+	000C75BC11278FC000D5C140 /* ProjectController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ProjectController.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectController.m;
+		sourceTree = "<absolute>";
+	};
+	000C75BD11278FC000D5C140 /* ProjectModel.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ProjectModel.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectModel.h;
+		sourceTree = "<absolute>";
+	};
+	000C75BE11278FC000D5C140 /* ProjectModel.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ProjectModel.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectModel.m;
+		sourceTree = "<absolute>";
+	};
+	000C75BF11278FC000D5C140 /* SettingNode.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = SettingNode.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/SettingNode.h;
+		sourceTree = "<absolute>";
+	};
+	000C75C011278FC000D5C140 /* SettingNode.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SettingNode.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/SettingNode.m;
+		sourceTree = "<absolute>";
+	};
+	000C75C111278FC000D5C140 /* TableItem.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = TableItem.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/TableItem.h;
+		sourceTree = "<absolute>";
+	};
+	000C75C211278FC000D5C140 /* TableItem.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TableItem.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/TableItem.m;
+		sourceTree = "<absolute>";
+	};
+	000C76961127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759311278FC000D5C140 /* BuildController.h */;
+		name = "BuildController.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1861;
-		vrLoc = 460;
+		vrLen = 751;
+		vrLoc = 0;
 	};
-	0022C97D10463B16007148DA /* ActionScript3Syntax.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = ActionScript3Syntax.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/Syntaxes/ActionScript3Syntax.xml";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 6643}}";
-			sepNavSelRange = "{2282, 0}";
-			sepNavVisRange = "{1593, 1643}";
-		};
+	000C76981127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00F8198C0FA346AC00EB3FFE /* ASMOpenDocumentation.h */;
+		name = "ASMOpenDocumentation.h: 22";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 451;
+		vrLoc = 0;
+	};
+	000C769A1127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75A311278FC000D5C140 /* MainApplicationView.h */;
+		name = "MainApplicationView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	000C769B1127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75B111278FC000D5C140 /* OutputMessage.h */;
+		name = "OutputMessage.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 0;
+	};
+	000C769D1127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75B911278FC000D5C140 /* PreferencesController.h */;
+		name = "PreferencesController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 0;
+	};
+	000C769E1127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75AB11278FC000D5C140 /* MenuItemCell.h */;
+		name = "MenuItemCell.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 0;
+	};
+	000C76A01127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75AD11278FC000D5C140 /* MenuOutlineView.h */;
+		name = "MenuOutlineView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	000C76A21127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75AC11278FC000D5C140 /* MenuItemCell.m */;
+		name = "MenuItemCell.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	000C76A31127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75A711278FC000D5C140 /* MenuDataSource.h */;
+		name = "MenuDataSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 212;
+		vrLoc = 0;
+	};
+	000C76A41127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75A211278FC000D5C140 /* FlexDebugger.m */;
+		name = "FlexDebugger.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 678;
+		vrLoc = 0;
+	};
+	000C76A51127908000D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759D11278FC000D5C140 /* FlashTrace.h */;
+		name = "FlashTrace.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 0;
+	};
+	000C76B51127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75C011278FC000D5C140 /* SettingNode.m */;
+		name = "SettingNode.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	000C76B61127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75BF11278FC000D5C140 /* SettingNode.h */;
+		name = "SettingNode.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 448;
+		vrLoc = 0;
+	};
+	000C76B81127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759E11278FC000D5C140 /* FlashTrace.m */;
+		name = "FlashTrace.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1351;
+		vrLoc = 1222;
+	};
+	000C76B91127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759511278FC000D5C140 /* BuildOption.h */;
+		name = "BuildOption.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 0;
+	};
+	000C76BA1127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759711278FC000D5C140 /* BuildSource.h */;
+		name = "BuildSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 0;
+	};
+	000C76BB1127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759911278FC000D5C140 /* BuildTask.h */;
+		name = "BuildTask.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	000C76BC1127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759411278FC000D5C140 /* BuildController.m */;
+		name = "BuildController.m: 45";
+		rLen = 126;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 478;
+	};
+	000C76BD1127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759811278FC000D5C140 /* BuildSource.m */;
+		name = "BuildSource.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	000C76BE1127920100D5C140 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759611278FC000D5C140 /* BuildOption.m */;
+		name = "BuildOption.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 555;
+	};
+	0011B01A10B2535D0041B04A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F3299A0F3DC74300A9DC7E /* ZDActionScript3ClassTagItem.h */;
+		name = "ZDActionScript3ClassTagItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 214;
+		vrLoc = 0;
+	};
+	0011B01F10B2535D0041B04A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
+		name = "README.markdown: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 404;
+		vrLoc = 0;
+	};
+	0011B02010B2535D0041B04A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8E70F2B9AB20061FD60 /* Languages.xml */;
+		name = "Languages.xml: 12";
+		rLen = 0;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
 	};
 	0035F5A20F7C2EFB00C8EA8E /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -35,112 +501,6 @@
 	0035F5A30F7C2EFB00C8EA8E /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	003E8A5A10157775006D0E7D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003E8A5B10157775006D0E7D /* Flex3-attributes.xml */;
-		name = "Flex3-attributes.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1770;
-		vrLoc = 1887;
-	};
-	003E8A5B10157775006D0E7D /* Flex3-attributes.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = "Flex3-attributes.xml";
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/CodeSenseLibraries/Flex3-attributes.xml";
-		sourceTree = "<absolute>";
-	};
-	003E8A5D10157775006D0E7D /* Categories.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = Categories.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/TextActions/Categories.xml";
-		sourceTree = "<absolute>";
-	};
-	003E8A5F10157775006D0E7D /* Snippets.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = Snippets.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/TextActions/Snippets.xml";
-		sourceTree = "<absolute>";
-	};
-	003E8A6010157775006D0E7D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003E8A6110157775006D0E7D /* ActionScript3.css */;
-		name = "ActionScript3.css: 59";
-		rLen = 0;
-		rLoc = 649;
-		rType = 0;
-		vrLen = 569;
-		vrLoc = 0;
-	};
-	003E8A6110157775006D0E7D /* ActionScript3.css */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.css;
-		name = ActionScript3.css;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/PlaceholderThemes/ActionScript3.css";
-		sourceTree = "<absolute>";
-	};
-	003E8A6210157775006D0E7D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 277EC8E70F2B9AB20061FD60 /* Languages.xml */;
-		name = "Languages.xml: 12";
-		rLen = 0;
-		rLoc = 283;
-		rType = 0;
-		vrLen = 719;
-		vrLoc = 0;
-	};
-	003E8A6410157775006D0E7D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00AB97EB1006C5B9000D2FE4 /* ActionScript3-Classes.xml */;
-		name = "ActionScript3-Classes.xml: 14";
-		rLen = 0;
-		rLoc = 466;
-		rType = 0;
-		vrLen = 1944;
-		vrLoc = 14106;
-	};
-	003E8A7C10157775006D0E7D /* Flex3.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = Flex3.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/CodeSenseProviders/Flex3.xml";
-		sourceTree = "<absolute>";
-	};
-	003E8A8810157775006D0E7D /* Flex3Syntax.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = Flex3Syntax.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/Syntaxes/Flex3Syntax.xml";
-		sourceTree = "<absolute>";
-	};
-	003E8A9310157775006D0E7D /* Flex3.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = Flex3.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/CodeSenseLibraries/Flex3.xml";
-		sourceTree = "<absolute>";
-	};
-	003E8AAA101578A5006D0E7D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00AB97E91006C5B9000D2FE4 /* ActionScript3.xml */;
-		name = "ActionScript3.xml: 225";
-		rLen = 0;
-		rLoc = 6436;
-		rType = 0;
-		vrLen = 1360;
-		vrLoc = 0;
-	};
-	003F9DB7100AD0E200EBC577 /* Actions.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = Actions.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/TextActions/Actions.xml";
-		sourceTree = "<absolute>";
 	};
 	0041B9510F8458C700F50FCC /* ASMActionScript3ObjectTagItem.h */ = {
 		uiCtxt = {
@@ -157,184 +517,6 @@
 			sepNavWindowFrame = "{{319, 51}, {1035, 827}}";
 		};
 	};
-	005C420110822FD900297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003E8A5F10157775006D0E7D /* Snippets.xml */;
-		name = "Snippets.xml: 48";
-		rLen = 0;
-		rLoc = 1957;
-		rType = 0;
-		vrLen = 1818;
-		vrLoc = 3530;
-	};
-	005C420210822FD900297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 0022C97D10463B16007148DA /* ActionScript3Syntax.xml */;
-		name = "ActionScript3Syntax.xml: 91";
-		rLen = 0;
-		rLoc = 3291;
-		rType = 0;
-		vrLen = 1898;
-		vrLoc = 2614;
-	};
-	005C4222108230DC00297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003E8A5D10157775006D0E7D /* Categories.xml */;
-		name = "Categories.xml: 17";
-		rLen = 2;
-		rLoc = 551;
-		rType = 0;
-		vrLen = 645;
-		vrLoc = 0;
-	};
-	005C4223108230DC00297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003F9DB7100AD0E200EBC577 /* Actions.xml */;
-		name = "Actions.xml: 19";
-		rLen = 0;
-		rLoc = 633;
-		rType = 0;
-		vrLen = 633;
-		vrLoc = 0;
-	};
-	005C4224108230DC00297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00F8198D0FA346AC00EB3FFE /* ASMOpenDocumentation.m */;
-		name = "ASMOpenDocumentation.m: 32";
-		rLen = 0;
-		rLoc = 623;
-		rType = 0;
-		vrLen = 1184;
-		vrLoc = 480;
-	};
-	005C43361082341000297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C167EFE841241C02AAC07 /* English */;
-		name = "InfoPlist.strings: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 45;
-		vrLoc = 0;
-	};
-	005C43371082341000297776 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	005C436C108236A300297776 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 277EC8A50F2B98010061FD60 /* FSActionBuild.h */;
-		name = "FSActionBuild.h: 10";
-		rLen = 0;
-		rLoc = 189;
-		rType = 0;
-		vrLen = 317;
-		vrLoc = 0;
-	};
-	00818C1C107EF79E0044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00818C1D107EF79E0044CCD0 /* ActionScript3.xml */;
-		name = "ActionScript3.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1823;
-		vrLoc = 2234;
-	};
-	00818C1D107EF79E0044CCD0 /* ActionScript3.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = ActionScript3.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/Itemizers/ActionScript3.xml";
-		sourceTree = "<absolute>";
-	};
-	00818C1E107EF79E0044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
-		name = "README.markdown: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1715;
-		vrLoc = 0;
-	};
-	00818C1F107EF79E0044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003E8A7C10157775006D0E7D /* Flex3.xml */;
-		name = "Flex3.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 992;
-		vrLoc = 0;
-	};
-	00818C20107EF79E0044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00AB97EF1006C5B9000D2FE4 /* ActionScript3.xml */;
-		name = "ActionScript3.xml: 15";
-		rLen = 26;
-		rLoc = 671;
-		rType = 0;
-		vrLen = 825;
-		vrLoc = 0;
-	};
-	00818C21107EF79E0044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 003E8A8810157775006D0E7D /* Flex3Syntax.xml */;
-		name = "Flex3Syntax.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1453;
-		vrLoc = 0;
-	};
-	00818C26107EF79E0044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00F8198C0FA346AC00EB3FFE /* ASMOpenDocumentation.h */;
-		name = "ASMOpenDocumentation.h: 22";
-		rLen = 0;
-		rLoc = 375;
-		rType = 0;
-		vrLen = 451;
-		vrLoc = 0;
-	};
-	00818C30107EF8000044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 277EC8A80F2B98010061FD60 /* TaskWrapper.m */;
-		name = "TaskWrapper.m: 127";
-		rLen = 0;
-		rLoc = 6614;
-		rType = 0;
-		vrLen = 2476;
-		vrLoc = 1178;
-	};
-	00818C31107EF8000044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 277EC8A70F2B98010061FD60 /* TaskWrapper.h */;
-		name = "TaskWrapper.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 3062;
-		vrLoc = 0;
-	};
-	00818C86107F01C50044CCD0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 27F3299B0F3DC74300A9DC7E /* ZDActionScript3ClassTagItem.m */;
-		name = "ZDActionScript3ClassTagItem.m: 19";
-		rLen = 0;
-		rLoc = 435;
-		rType = 0;
-		vrLen = 1212;
-		vrLoc = 205;
-	};
 	00818C87107F01C50044CCD0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 27F3299E0F3DC74300A9DC7E /* ZDActionScript3MethodTagItem.h */;
@@ -345,89 +527,546 @@
 		vrLen = 195;
 		vrLoc = 0;
 	};
-	00AB97E91006C5B9000D2FE4 /* ActionScript3.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = ActionScript3.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/CodeSenseLibraries/ActionScript3.xml";
-		sourceTree = "<absolute>";
-	};
-	00AB97EB1006C5B9000D2FE4 /* ActionScript3-Classes.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = "ActionScript3-Classes.xml";
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/CodeSenseLibraries/ActionScript3-Classes.xml";
-		sourceTree = "<absolute>";
-	};
-	00AB97EF1006C5B9000D2FE4 /* ActionScript3.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = ActionScript3.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/CodeSenseProviders/ActionScript3.xml";
-		sourceTree = "<absolute>";
-	};
-	00CB0E6F108A238F0083248B /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
-	};
-	00CB0E70108A23990083248B /* PBXTextBookmark */ = {
+	0093D04811275A7900306D21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 277EC8A60F2B98010061FD60 /* FSActionBuild.m */;
-		name = "FSActionBuild.m: 131";
+		fRef = 277EC8A70F2B98010061FD60 /* TaskWrapper.h */;
+		name = "TaskWrapper.h: 1";
 		rLen = 0;
-		rLoc = 2925;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 796;
-		vrLoc = 216;
+		vrLen = 2496;
+		vrLoc = 0;
 	};
-	00CB0E7A108B64450083248B /* PBXTextBookmark */ = {
+	0093D04911275A7900306D21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 00CB0E7B108B64450083248B /* ActionScript3Syntax.xml */;
-		name = "ActionScript3Syntax.xml: 67";
+		fRef = 277EC8A80F2B98010061FD60 /* TaskWrapper.m */;
+		name = "TaskWrapper.m: 127";
 		rLen = 0;
-		rLoc = 2282;
+		rLoc = 6614;
 		rType = 0;
-		vrLen = 1643;
-		vrLoc = 1593;
+		vrLen = 1485;
+		vrLoc = 2169;
 	};
-	00CB0E7B108B64450083248B /* ActionScript3Syntax.xml */ = {
+	0093D04D11275A7900306D21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0093D04E11275A7900306D21 /* Categories.xml */;
+		name = "Categories.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	0093D04E11275A7900306D21 /* Categories.xml */ = {
 		isa = PBXFileReference;
-		name = ActionScript3Syntax.xml;
-		path = "/Users/MikeMurray/Projects/Espresso/Sugars/AS3/FlashSugar/XML Based/Syntaxes/ActionScript3Syntax.xml";
+		lastKnownFileType = text.xml;
+		name = Categories.xml;
+		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/TextActions/Categories.xml";
 		sourceTree = "<absolute>";
+	};
+	0093D05011275A7900306D21 /* Actions.xml */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = Actions.xml;
+		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/TextActions/Actions.xml";
+		sourceTree = "<absolute>";
+	};
+	0093D05511275AE700306D21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00F7712311274D7C00861944 /* flashcommand */;
+		name = "flashcommand: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 0;
+	};
+	00BD87DC1133746A0000673C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	00BD87DD1133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67A8C1128992100DED16C /* ProjectView.h */;
+		name = "ProjectView.h: 14";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
+	00BD87DE1133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C679F61128522400DED16C /* ProjectViewController.m */;
+		name = "ProjectViewController.m: 21";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 0;
+	};
+	00BD87DF1133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75BC11278FC000D5C140 /* ProjectController.m */;
+		name = "ProjectController.m: 23";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 1145;
+		vrLoc = 0;
+	};
+	00BD87E01133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75BB11278FC000D5C140 /* ProjectController.h */;
+		name = "ProjectController.h: 47";
+		rLen = 0;
+		rLoc = 1376;
+		rType = 0;
+		vrLen = 1827;
+		vrLoc = 0;
+	};
+	00BD87E11133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759011278F3000D5C140 /* FlashSugarController.h */;
+		name = "FlashSugarController.h: 10";
+		rLen = 23;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 839;
+		vrLoc = 0;
+	};
+	00BD87E21133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C678371127A14F00DED16C /* BuildViewController.m */;
+		name = "BuildViewController.m: 5";
+		rLen = 0;
+		rLoc = 85;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 0;
+	};
+	00BD87E31133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C678E31127B3F100DED16C /* MainTabView.m */;
+		name = "MainTabView.m: 25";
+		rLen = 0;
+		rLoc = 511;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	00BD87E41133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67BF61129CC0400DED16C /* LogController.h */;
+		name = "LogController.h: 16";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 0;
+	};
+	00BD87E51133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67CB7112BA4C300DED16C /* ProjectListItem.m */;
+		name = "ProjectListItem.m: 23";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	00BD87E61133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759111278F3000D5C140 /* FlashSugarController.m */;
+		name = "FlashSugarController.m: 49";
+		rLen = 90;
+		rLoc = 985;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 272;
+	};
+	00BD87E71133746A0000673C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759111278F3000D5C140 /* FlashSugarController.m */;
+		name = "FlashSugarController.m: 54";
+		rLen = 64;
+		rLoc = 1140;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 48;
+	};
+	00C6769D1127937300DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C759A11278FC000D5C140 /* BuildTask.m */;
+		name = "BuildTask.m: 12";
+		rLen = 0;
+		rLoc = 191;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 0;
+	};
+	00C677D2112798E800DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D657A0A0E9A6763009E9EB8 /* Prefix.pch */;
+		name = "Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 127;
+		vrLoc = 0;
+	};
+	00C6782411279D9600DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8A50F2B98010061FD60 /* FSActionBuild.h */;
+		name = "FSActionBuild.h: 10";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 0;
+	};
+	00C678361127A14F00DED16C /* BuildViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BuildViewController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildViewController.h;
+		sourceTree = "<absolute>";
+	};
+	00C678371127A14F00DED16C /* BuildViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BuildViewController.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/BuildViewController.m;
+		sourceTree = "<absolute>";
+	};
+	00C6786E1127A8A300DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F3299C0F3DC74300A9DC7E /* ZDActionScript3ImportTagItem.h */;
+		name = "ZDActionScript3ImportTagItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	00C6786F1127A8A300DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F3299B0F3DC74300A9DC7E /* ZDActionScript3ClassTagItem.m */;
+		name = "ZDActionScript3ClassTagItem.m: 73";
+		rLen = 37;
+		rLoc = 1682;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 1307;
+	};
+	00C678E21127B3F100DED16C /* MainTabView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MainTabView.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MainTabView.h;
+		sourceTree = "<absolute>";
+	};
+	00C678E31127B3F100DED16C /* MainTabView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MainTabView.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/MainTabView.m;
+		sourceTree = "<absolute>";
+	};
+	00C679261127B80300DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75B011278FC000D5C140 /* MyDocument.m */;
+		name = "MyDocument.m: 49";
+		rLen = 1738;
+		rLoc = 1135;
+		rType = 0;
+		vrLen = 1174;
+		vrLoc = 493;
+	};
+	00C6793A1127CC5E00DED16C /* blankproject.abproj */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 6643}}";
-			sepNavSelRange = "{2282, 0}";
-			sepNavVisRange = "{1593, 1643}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 571}}";
+			sepNavSelRange = "{387, 0}";
+			sepNavVisRange = "{0, 530}";
 		};
 	};
-	00CB0E7C108B64450083248B /* PBXTextBookmark */ = {
+	00C679471127CCAF00DED16C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
-		name = "README.markdown: 19";
+		fRef = 00C6793A1127CC5E00DED16C /* blankproject.abproj */;
+		name = "blankproject.abproj: 13";
 		rLen = 0;
-		rLoc = 404;
+		rLoc = 387;
 		rType = 0;
-		vrLen = 404;
+		vrLen = 530;
 		vrLoc = 0;
+	};
+	00C679F51128522400DED16C /* ProjectViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ProjectViewController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectViewController.h;
+		sourceTree = "<absolute>";
+	};
+	00C679F61128522400DED16C /* ProjectViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ProjectViewController.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectViewController.m;
+		sourceTree = "<absolute>";
+	};
+	00C67A8C1128992100DED16C /* ProjectView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ProjectView.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectView.h;
+		sourceTree = "<absolute>";
+	};
+	00C67A8D1128992100DED16C /* ProjectView.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ProjectView.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectView.m;
+		sourceTree = "<absolute>";
+	};
+	00C67B2F1128AE9B00DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00F8198D0FA346AC00EB3FFE /* ASMOpenDocumentation.m */;
+		name = "ASMOpenDocumentation.m: 32";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 478;
+	};
+	00C67B371128AF6400DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C678E21127B3F100DED16C /* MainTabView.h */;
+		name = "MainTabView.h: 15";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 0;
+	};
+	00C67B8C1128B7E700DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8A60F2B98010061FD60 /* FSActionBuild.m */;
+		name = "FSActionBuild.m: 17";
+		rLen = 0;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 810;
+		vrLoc = 508;
+	};
+	00C67B8F1128B7E700DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C679F51128522400DED16C /* ProjectViewController.h */;
+		name = "ProjectViewController.h: 17";
+		rLen = 15;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	00C67BAC1129ACF700DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67BAD1129ACF700DED16C /* BWSheetController.h */;
+		name = "BWSheetController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 963;
+		vrLoc = 0;
+	};
+	00C67BAD1129ACF700DED16C /* BWSheetController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = BWSheetController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/frameworks/BWToolkitFramework.framework/Headers/BWSheetController.h;
+		sourceTree = "<absolute>";
+	};
+	00C67BAE1129ACF700DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67A8D1128992100DED16C /* ProjectView.m */;
+		name = "ProjectView.m: 28";
+		rLen = 0;
+		rLoc = 700;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 0;
+	};
+	00C67BCE1129B1D000DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75BD11278FC000D5C140 /* ProjectModel.h */;
+		name = "ProjectModel.h: 40";
+		rLen = 0;
+		rLoc = 831;
+		rType = 0;
+		vrLen = 1529;
+		vrLoc = 579;
+	};
+	00C67BCF1129B1D000DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75BE11278FC000D5C140 /* ProjectModel.m */;
+		name = "ProjectModel.m: 14";
+		rLen = 24;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 885;
+		vrLoc = 0;
+	};
+	00C67BF61129CC0400DED16C /* LogController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = LogController.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/LogController.h;
+		sourceTree = "<absolute>";
+	};
+	00C67BF71129CC0400DED16C /* LogController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = LogController.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/LogController.m;
+		sourceTree = "<absolute>";
+	};
+	00C67BFB1129D91D00DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 45;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	00C67BFC1129D91D00DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C678361127A14F00DED16C /* BuildViewController.h */;
+		name = "BuildViewController.h: 12";
+		rLen = 16;
+		rLoc = 200;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	00C67C0B1129D98B00DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67BF71129CC0400DED16C /* LogController.m */;
+		name = "LogController.m: 17";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	00C67CA0112BA1FD00DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75C211278FC000D5C140 /* TableItem.m */;
+		name = "TableItem.m: 29";
+		rLen = 0;
+		rLoc = 403;
+		rType = 0;
+		vrLen = 541;
+		vrLoc = 0;
+	};
+	00C67CA1112BA1FD00DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75C111278FC000D5C140 /* TableItem.h */;
+		name = "TableItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	00C67CB6112BA4C300DED16C /* ProjectListItem.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ProjectListItem.h;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectListItem.h;
+		sourceTree = "<absolute>";
+	};
+	00C67CB7112BA4C300DED16C /* ProjectListItem.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ProjectListItem.m;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/Code/FlashSugarApp/ProjectListItem.m;
+		sourceTree = "<absolute>";
+	};
+	00C67CC8112BA6D300DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75A911278FC000D5C140 /* MenuItem.h */;
+		name = "MenuItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	00C67CC9112BA6D300DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 000C75AA11278FC000D5C140 /* MenuItem.m */;
+		name = "MenuItem.m: 20";
+		rLen = 94;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
+	};
+	00C67D9A112E349600DED16C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00C67CB6112BA4C300DED16C /* ProjectListItem.h */;
+		name = "ProjectListItem.h: 20";
+		rLen = 0;
+		rLoc = 394;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	00F7712311274D7C00861944 /* flashcommand */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 4901}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 716}";
+		};
 	};
 	00F8198C0FA346AC00EB3FFE /* ASMOpenDocumentation.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {966, 676}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 442}}";
 			sepNavSelRange = "{375, 0}";
 			sepNavVisRange = "{0, 451}";
 		};
 	};
 	00F8198D0FA346AC00EB3FFE /* ASMOpenDocumentation.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1405, 1742}}";
-			sepNavSelRange = "{1070, 38}";
-			sepNavVisRange = "{90, 1810}";
+			sepNavIntBoundsRect = "{{0, 0}, {1755, 1651}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{478, 1686}";
 			sepNavWindowFrame = "{{-989, 9}, {1035, 827}}";
 		};
 	};
 	089C1669FE841209C02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
+		activeSDKPreference = macosx10.5;
 		activeTarget = 8D5B49AC048680CD000E48DA /* FlashSugar */;
 		addToTargets = (
 			8D5B49AC048680CD000E48DA /* FlashSugar */,
@@ -436,12 +1075,50 @@
 		);
 		codeSenseManager = 0035F5A30F7C2EFB00C8EA8E /* Code sense */;
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					343,
+					20,
+					243,
+					243,
+					171,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					777.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					677,
+					1130,
 					20,
 					48,
 					43,
@@ -458,12 +1135,28 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					830,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					637,
+					1090,
 					60,
 					20,
 					48,
@@ -480,38 +1173,74 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 277483709;
-			PBXWorkspaceStateSaveDate = 277483709;
+			PBXPerProjectTemplateStateSaveDate = 288749008;
+			PBXWorkspaceStateSaveDate = 288749008;
 		};
 		perUserProjectItems = {
-			0022C946104639E4007148DA /* PBXTextBookmark */ = 0022C946104639E4007148DA /* PBXTextBookmark */;
-			003E8A5A10157775006D0E7D /* PBXTextBookmark */ = 003E8A5A10157775006D0E7D /* PBXTextBookmark */;
-			003E8A6010157775006D0E7D /* PBXTextBookmark */ = 003E8A6010157775006D0E7D /* PBXTextBookmark */;
-			003E8A6210157775006D0E7D /* PBXTextBookmark */ = 003E8A6210157775006D0E7D /* PBXTextBookmark */;
-			003E8A6410157775006D0E7D /* PBXTextBookmark */ = 003E8A6410157775006D0E7D /* PBXTextBookmark */;
-			003E8AAA101578A5006D0E7D /* PBXTextBookmark */ = 003E8AAA101578A5006D0E7D /* PBXTextBookmark */;
-			005C420110822FD900297776 /* PBXTextBookmark */ = 005C420110822FD900297776 /* PBXTextBookmark */;
-			005C420210822FD900297776 /* PBXTextBookmark */ = 005C420210822FD900297776 /* PBXTextBookmark */;
-			005C4222108230DC00297776 /* PBXTextBookmark */ = 005C4222108230DC00297776 /* PBXTextBookmark */;
-			005C4223108230DC00297776 /* PBXTextBookmark */ = 005C4223108230DC00297776 /* PBXTextBookmark */;
-			005C4224108230DC00297776 /* PBXTextBookmark */ = 005C4224108230DC00297776 /* PBXTextBookmark */;
-			005C43361082341000297776 /* PBXTextBookmark */ = 005C43361082341000297776 /* PBXTextBookmark */;
-			005C43371082341000297776 /* PlistBookmark */ = 005C43371082341000297776 /* PlistBookmark */;
-			005C436C108236A300297776 /* PBXTextBookmark */ = 005C436C108236A300297776 /* PBXTextBookmark */;
-			00818C1C107EF79E0044CCD0 /* PBXTextBookmark */ = 00818C1C107EF79E0044CCD0 /* PBXTextBookmark */;
-			00818C1E107EF79E0044CCD0 /* PBXTextBookmark */ = 00818C1E107EF79E0044CCD0 /* PBXTextBookmark */;
-			00818C1F107EF79E0044CCD0 /* PBXTextBookmark */ = 00818C1F107EF79E0044CCD0 /* PBXTextBookmark */;
-			00818C20107EF79E0044CCD0 /* PBXTextBookmark */ = 00818C20107EF79E0044CCD0 /* PBXTextBookmark */;
-			00818C21107EF79E0044CCD0 /* PBXTextBookmark */ = 00818C21107EF79E0044CCD0 /* PBXTextBookmark */;
-			00818C26107EF79E0044CCD0 /* PBXTextBookmark */ = 00818C26107EF79E0044CCD0 /* PBXTextBookmark */;
-			00818C30107EF8000044CCD0 /* PBXTextBookmark */ = 00818C30107EF8000044CCD0 /* PBXTextBookmark */;
-			00818C31107EF8000044CCD0 /* PBXTextBookmark */ = 00818C31107EF8000044CCD0 /* PBXTextBookmark */;
-			00818C86107F01C50044CCD0 /* PBXTextBookmark */ = 00818C86107F01C50044CCD0 /* PBXTextBookmark */;
-			00818C87107F01C50044CCD0 /* PBXTextBookmark */ = 00818C87107F01C50044CCD0 /* PBXTextBookmark */;
-			00CB0E6F108A238F0083248B /* PBXBookmark */ = 00CB0E6F108A238F0083248B /* PBXBookmark */;
-			00CB0E70108A23990083248B /* PBXTextBookmark */ = 00CB0E70108A23990083248B /* PBXTextBookmark */;
-			00CB0E7A108B64450083248B /* PBXTextBookmark */ = 00CB0E7A108B64450083248B /* PBXTextBookmark */;
-			00CB0E7C108B64450083248B /* PBXTextBookmark */ = 00CB0E7C108B64450083248B /* PBXTextBookmark */;
+			000C751511276A0C00D5C140 = 000C751511276A0C00D5C140 /* PBXTextBookmark */;
+			000C76961127908000D5C140 = 000C76961127908000D5C140 /* PBXTextBookmark */;
+			000C76981127908000D5C140 = 000C76981127908000D5C140 /* PBXTextBookmark */;
+			000C769A1127908000D5C140 = 000C769A1127908000D5C140 /* PBXTextBookmark */;
+			000C769B1127908000D5C140 = 000C769B1127908000D5C140 /* PBXTextBookmark */;
+			000C769D1127908000D5C140 = 000C769D1127908000D5C140 /* PBXTextBookmark */;
+			000C769E1127908000D5C140 = 000C769E1127908000D5C140 /* PBXTextBookmark */;
+			000C76A01127908000D5C140 = 000C76A01127908000D5C140 /* PBXTextBookmark */;
+			000C76A21127908000D5C140 = 000C76A21127908000D5C140 /* PBXTextBookmark */;
+			000C76A31127908000D5C140 = 000C76A31127908000D5C140 /* PBXTextBookmark */;
+			000C76A41127908000D5C140 = 000C76A41127908000D5C140 /* PBXTextBookmark */;
+			000C76A51127908000D5C140 = 000C76A51127908000D5C140 /* PBXTextBookmark */;
+			000C76B51127920100D5C140 = 000C76B51127920100D5C140 /* PBXTextBookmark */;
+			000C76B61127920100D5C140 = 000C76B61127920100D5C140 /* PBXTextBookmark */;
+			000C76B81127920100D5C140 = 000C76B81127920100D5C140 /* PBXTextBookmark */;
+			000C76B91127920100D5C140 = 000C76B91127920100D5C140 /* PBXTextBookmark */;
+			000C76BA1127920100D5C140 = 000C76BA1127920100D5C140 /* PBXTextBookmark */;
+			000C76BB1127920100D5C140 = 000C76BB1127920100D5C140 /* PBXTextBookmark */;
+			000C76BC1127920100D5C140 = 000C76BC1127920100D5C140 /* PBXTextBookmark */;
+			000C76BD1127920100D5C140 = 000C76BD1127920100D5C140 /* PBXTextBookmark */;
+			000C76BE1127920100D5C140 = 000C76BE1127920100D5C140 /* PBXTextBookmark */;
+			0011B01A10B2535D0041B04A = 0011B01A10B2535D0041B04A /* PBXTextBookmark */;
+			0011B01F10B2535D0041B04A = 0011B01F10B2535D0041B04A /* PBXTextBookmark */;
+			0011B02010B2535D0041B04A = 0011B02010B2535D0041B04A /* PBXTextBookmark */;
+			00818C87107F01C50044CCD0 = 00818C87107F01C50044CCD0 /* PBXTextBookmark */;
+			0093D04811275A7900306D21 = 0093D04811275A7900306D21 /* PBXTextBookmark */;
+			0093D04911275A7900306D21 = 0093D04911275A7900306D21 /* PBXTextBookmark */;
+			0093D04D11275A7900306D21 = 0093D04D11275A7900306D21 /* PBXTextBookmark */;
+			0093D05511275AE700306D21 = 0093D05511275AE700306D21 /* PBXTextBookmark */;
+			00BD87DC1133746A0000673C = 00BD87DC1133746A0000673C /* PlistBookmark */;
+			00BD87DD1133746A0000673C = 00BD87DD1133746A0000673C /* PBXTextBookmark */;
+			00BD87DE1133746A0000673C = 00BD87DE1133746A0000673C /* PBXTextBookmark */;
+			00BD87DF1133746A0000673C = 00BD87DF1133746A0000673C /* PBXTextBookmark */;
+			00BD87E01133746A0000673C = 00BD87E01133746A0000673C /* PBXTextBookmark */;
+			00BD87E11133746A0000673C = 00BD87E11133746A0000673C /* PBXTextBookmark */;
+			00BD87E21133746A0000673C = 00BD87E21133746A0000673C /* PBXTextBookmark */;
+			00BD87E31133746A0000673C = 00BD87E31133746A0000673C /* PBXTextBookmark */;
+			00BD87E41133746A0000673C = 00BD87E41133746A0000673C /* PBXTextBookmark */;
+			00BD87E51133746A0000673C = 00BD87E51133746A0000673C /* PBXTextBookmark */;
+			00BD87E61133746A0000673C = 00BD87E61133746A0000673C /* PBXTextBookmark */;
+			00BD87E71133746A0000673C = 00BD87E71133746A0000673C /* PBXTextBookmark */;
+			00C6769D1127937300DED16C = 00C6769D1127937300DED16C /* PBXTextBookmark */;
+			00C677D2112798E800DED16C = 00C677D2112798E800DED16C /* PBXTextBookmark */;
+			00C6782411279D9600DED16C = 00C6782411279D9600DED16C /* PBXTextBookmark */;
+			00C6786E1127A8A300DED16C = 00C6786E1127A8A300DED16C /* PBXTextBookmark */;
+			00C6786F1127A8A300DED16C = 00C6786F1127A8A300DED16C /* PBXTextBookmark */;
+			00C679261127B80300DED16C = 00C679261127B80300DED16C /* PBXTextBookmark */;
+			00C679471127CCAF00DED16C = 00C679471127CCAF00DED16C /* PBXTextBookmark */;
+			00C67B2F1128AE9B00DED16C = 00C67B2F1128AE9B00DED16C /* PBXTextBookmark */;
+			00C67B371128AF6400DED16C = 00C67B371128AF6400DED16C /* PBXTextBookmark */;
+			00C67B8C1128B7E700DED16C = 00C67B8C1128B7E700DED16C /* PBXTextBookmark */;
+			00C67B8F1128B7E700DED16C = 00C67B8F1128B7E700DED16C /* PBXTextBookmark */;
+			00C67BAC1129ACF700DED16C = 00C67BAC1129ACF700DED16C /* PBXTextBookmark */;
+			00C67BAE1129ACF700DED16C = 00C67BAE1129ACF700DED16C /* PBXTextBookmark */;
+			00C67BCE1129B1D000DED16C = 00C67BCE1129B1D000DED16C /* PBXTextBookmark */;
+			00C67BCF1129B1D000DED16C = 00C67BCF1129B1D000DED16C /* PBXTextBookmark */;
+			00C67BFB1129D91D00DED16C = 00C67BFB1129D91D00DED16C /* PBXTextBookmark */;
+			00C67BFC1129D91D00DED16C = 00C67BFC1129D91D00DED16C /* PBXTextBookmark */;
+			00C67C0B1129D98B00DED16C = 00C67C0B1129D98B00DED16C /* PBXTextBookmark */;
+			00C67CA0112BA1FD00DED16C = 00C67CA0112BA1FD00DED16C /* PBXTextBookmark */;
+			00C67CA1112BA1FD00DED16C = 00C67CA1112BA1FD00DED16C /* PBXTextBookmark */;
+			00C67CC8112BA6D300DED16C = 00C67CC8112BA6D300DED16C /* PBXTextBookmark */;
+			00C67CC9112BA6D300DED16C = 00C67CC9112BA6D300DED16C /* PBXTextBookmark */;
+			00C67D9A112E349600DED16C = 00C67D9A112E349600DED16C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 0035F5A20F7C2EFB00C8EA8E /* Source Control */;
 		userBuildSettings = {
@@ -519,52 +1248,52 @@
 	};
 	089C167EFE841241C02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 381}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 571}}";
+			sepNavSelRange = "{45, 0}";
 			sepNavVisRange = "{0, 45}";
 		};
 	};
 	277EC8A50F2B98010061FD60 /* FSActionBuild.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 536}}";
-			sepNavSelRange = "{189, 0}";
-			sepNavVisRange = "{0, 317}";
+			sepNavIntBoundsRect = "{{0, 0}, {1308, 906}}";
+			sepNavSelRange = "{313, 0}";
+			sepNavVisRange = "{0, 393}";
 			sepNavWindowFrame = "{{15, 51}, {1035, 827}}";
 		};
 	};
 	277EC8A60F2B98010061FD60 /* FSActionBuild.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {855, 1768}}";
-			sepNavSelRange = "{2925, 0}";
-			sepNavVisRange = "{216, 796}";
+			sepNavIntBoundsRect = "{{0, 0}, {1308, 1846}}";
+			sepNavSelRange = "{390, 0}";
+			sepNavVisRange = "{3, 1341}";
 			sepNavWindowFrame = "{{241, 196}, {750, 558}}";
 		};
 	};
 	277EC8A70F2B98010061FD60 /* TaskWrapper.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2896, 975}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2896, 962}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 3062}";
+			sepNavVisRange = "{0, 2496}";
 		};
 	};
 	277EC8A80F2B98010061FD60 /* TaskWrapper.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2476, 2106}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2476, 2119}}";
 			sepNavSelRange = "{6614, 0}";
-			sepNavVisRange = "{1178, 2476}";
+			sepNavVisRange = "{2169, 1485}";
 		};
 	};
 	277EC8E60F2B9AB20061FD60 /* README.markdown */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {976, 753}}";
-			sepNavSelRange = "{404, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1308, 906}}";
+			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 404}";
-			sepNavWindowFrame = "{{577, 51}, {1035, 825}}";
+			sepNavWindowFrame = "{{-1078, 18}, {1035, 825}}";
 		};
 	};
 	277EC8E70F2B9AB20061FD60 /* Languages.xml */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {966, 701}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1308, 906}}";
 			sepNavSelRange = "{283, 0}";
 			sepNavVisRange = "{0, 719}";
 		};
@@ -578,7 +1307,7 @@
 	};
 	27F3299A0F3DC74300A9DC7E /* ZDActionScript3ClassTagItem.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {951, 478}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 500}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 214}";
 		};
@@ -586,13 +1315,13 @@
 	27F3299B0F3DC74300A9DC7E /* ZDActionScript3ClassTagItem.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1741, 1183}}";
-			sepNavSelRange = "{435, 0}";
-			sepNavVisRange = "{205, 1212}";
+			sepNavSelRange = "{1682, 37}";
+			sepNavVisRange = "{1307, 687}";
 		};
 	};
 	27F3299C0F3DC74300A9DC7E /* ZDActionScript3ImportTagItem.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {951, 478}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 435}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 195}";
 		};
@@ -613,7 +1342,7 @@
 	};
 	3D657A0A0E9A6763009E9EB8 /* Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {951, 478}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 435}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 127}";
 		};

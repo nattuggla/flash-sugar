@@ -9,10 +9,11 @@
 		<title>MX</title>
 	</category>
 	
-	<category id="as3.tools.Utilities" show="inline separated"></category>
+	
     <category id="as3.tools.Snippets" show="inline separated"></category>
     <category id="as3.tools.Snippets.control" show="inline separated"></category>
     <category id="as3.tools.Snippets.container" show="inline separated"></category>
     <category id="as3.tools.Snippets.misc" show="inline separated"></category>
-    <category id="as3.tools.Snippets.documentation" show="inline separated"></category>
+	
+	<category id="as3.tools.Utilities" show="inline separated"></category>
 </action-categories>

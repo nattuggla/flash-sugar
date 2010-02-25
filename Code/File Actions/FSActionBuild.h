@@ -11,7 +11,6 @@
 @interface FSActionBuild : NSObject {
 	NSURL *filePath;
 	BOOL fileIsActionBuildProject;
-	
 }
 
 - (void) launchActionBuild;

@@ -5,38 +5,10 @@
          it's selected in the completion list. If a behavior is defined in the 
          root <codesense> element, it will be applied to all completion sets 
          inside (unless more specific behaviors are defined in the sets). -->
-    
-	<behavior>
-		<confirm characters=";" />
-    </behavior>
-	
 	
 	<!-- Packages -->
-	
-	
-	
-	
-	
-	
-	<set name="com.as3.package.accessibility">
-		<behavior>
-			<append-dynamic>
-				<matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into></transform-into>
-			</append-dynamic>
-		</behavior>
-		
-		<completion string="Accessibility" />
-		<completion string="AccessibilityProperties" />
-	</set>
 
-	<set name="zado.as3.class.classes">
-		<behavior>
-			<append-dynamic>
-				<matched-suffix>(\s*:)|[^:]</matched-suffix>
-				<transform-into>$0</transform-into>
-			</append-dynamic>
-		</behavior>
+	<set name="com.wizaado.as3.classes">
 		
         <completion string="Accessibility" />
 		<completion string="AccessibilityProperties" />

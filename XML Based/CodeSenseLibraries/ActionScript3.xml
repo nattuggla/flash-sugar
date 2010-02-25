@@ -6,9 +6,15 @@
          root <codesense> element, it will be applied to all completion sets 
          inside (unless more specific behaviors are defined in the sets). -->
     
-	<behavior>
-		<confirm characters=";" />
-    </behavior>
+	
+	
+	<set name="zado.as3.test.$import">
+		<completion string="flash" />
+		<completion string="mx" />
+		<completion string="fl" />
+		<completion string="com" />
+	</set>
+
 	
 	<set name="zado.as3.global.comment">
 		<behavior>

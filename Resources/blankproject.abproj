@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>flags</key>
+	<array>
+		<string>-incremental=true</string>
+		<string>-optimize=true</string>
+		<string>-use-network=false</string>
+	</array>
+	<key>launch</key>
+	<string>bin/index.html</string>
+	<key>output</key>
+	<string>bin/main.swf</string>
+	<key>project-type</key>
+	<string>FLASH</string>
+	<key>source</key>
+	<string>main.as</string>
+</dict>
+</plist>

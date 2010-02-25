@@ -6,9 +6,15 @@
          root <codesense> element, it will be applied to all completion sets 
          inside (unless more specific behaviors are defined in the sets). -->
     
-	<behavior>
-		<confirm characters=";" />
-    </behavior>
+	
+	
+	<set name="zado.as3.test.$import">
+		<completion string="flash" />
+		<completion string="mx" />
+		<completion string="fl" />
+		<completion string="com" />
+	</set>
+
 	
 	<set name="zado.as3.global.comment">
 		<behavior>
@@ -135,4 +141,131 @@
 		<completion string="String" />
 		<completion string="void" />
     </set>
+	
+	<set name="zado.as3.common-properties">
+		
+		<completion string="width" />
+		<completion string="height" />
+		<completion string="x" />
+		<completion string="y" />
+		<completion string="z" />
+		<completion string="visible" />
+		<completion string="alpha" />
+		<completion string="name" />
+		<completion string="mask" />
+		<completion string="data" />
+		<completion string="length" />
+		<completion string="target" />
+		<completion string="load" />
+		<completion string="mouseEnabled" />
+		<completion string="scaleMode" />
+		<completion string="align" />
+		<completion string="text" />
+		<completion string="rotation" />
+		<completion string="scaleX" />
+		<completion string="scaleY" />
+		<completion string="scaleZ" />
+    </set>
+
+	
+	<set name="zado.as3.common-methods">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(${1:arguments})</transform-into>
+			</append-dynamic>
+		</behavior>
+		
+		<completion string="function">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into> ${1:name} (${2})${3:}</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+        <completion string="addEventListener">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:type\:String}, ${2:listener\:Function}, false, 0, true);</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="removeEventListener">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:type\:String}, ${2:listener\:Function});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="dispatchEvent">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:event\:Event});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="addChild">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:child\:DisplayObject});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="addChildAt">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:child\:DisplayObject});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="removeChild">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:child\:DisplayObject});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="getChildByName">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:name\:String});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="getChildAt">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(${1:index\:int});</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+		<completion string="super">
+			<behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>();</transform-into>
+				</append-dynamic>
+			</behavior>
+		</completion>
+		
+    </set>
+
 </codesense>

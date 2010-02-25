@@ -32,6 +32,20 @@
             <text-trigger>mfun</text-trigger>
         </snippet>
 		
+		<snippet id="com.asmike.snippets.setter" category="actions.text.AS3/as3.tools.Snippets">
+            <title>setter</title>
+            <text><![CDATA[public function set $1(value:${2:String}):void {$3]]></text>
+            <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
+            <text-trigger>setter</text-trigger>
+        </snippet>
+		
+		<snippet id="com.asmike.snippets.getter" category="actions.text.AS3/as3.tools.Snippets">
+            <title>getter</title>
+            <text><![CDATA[public function get $2()${4:\:String} \{return $5;\}]]></text>
+            <syntax-context>as3, as3 *, fx3 > tag.script.mx</syntax-context>
+            <text-trigger>getter</text-trigger>
+        </snippet>
+				
 		<snippet id="com.asmike.snippets.class" category="actions.text.AS3/as3.tools.Snippets">
             <title>class</title>
             <text><![CDATA[${1:public} class $2 {$0}]]></text>
