@@ -63,7 +63,7 @@
 				<capture number="1" name="dot-syntax.seperator"/>
 			</starts-with>
 			<ends-with>
-				<expression>(\(|;)</expression>
+				<expression>(\(|;|,)</expression>
 				<capture number="1" name="statement.end"/>
 			</ends-with>
 

@@ -272,6 +272,7 @@
 								<string>00BD857C1133596B0000673C</string>
 								<string>3D6576110E991DDC009E9EB8</string>
 								<string>277EC8DA0F2B9AB20061FD60</string>
+								<string>277EC8DC0F2B9AB20061FD60</string>
 								<string>277EC8E00F2B9AB20061FD60</string>
 								<string>277EC8E30F2B9AB20061FD60</string>
 								<string>089C167CFE841241C02AAC07</string>
@@ -281,8 +282,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>9</integer>
+									<integer>18</integer>
+									<integer>17</integer>
 									<integer>3</integer>
 									<integer>2</integer>
 									<integer>0</integer>
@@ -324,7 +325,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>0033A06A0FE3C52100D67CD9</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ActionScript3Syntax.xml</string>
+								<string>ActionScript3.xml</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +333,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>0033A06B0FE3C52100D67CD9</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ActionScript3Syntax.xml</string>
+										<string>ActionScript3.xml</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>00BB974C114D34E400F6BD0E</string>
+										<string>00615A18114D432200F30084</string>
 										<key>history</key>
 										<array>
 											<string>00818C87107F01C50044CCD0</string>
@@ -361,17 +362,17 @@
 											<string>00236CC5113616AA001F4958</string>
 											<string>00236CC7113616AA001F4958</string>
 											<string>00236CC8113616AA001F4958</string>
-											<string>00236CCA113616AA001F4958</string>
 											<string>00236CCC113616AA001F4958</string>
 											<string>00236CCE113616AA001F4958</string>
 											<string>00236CD0113616AA001F4958</string>
-											<string>00236CD2113616AA001F4958</string>
-											<string>00236CD4113616AA001F4958</string>
 											<string>00236CD6113616AA001F4958</string>
-											<string>00236CD8113616AA001F4958</string>
 											<string>00E4D59B114C0570007F854B</string>
 											<string>00E4D59C114C0570007F854B</string>
-											<string>0034DBB2114C087900A9B5B9</string>
+											<string>00BB9875114D393B00F6BD0E</string>
+											<string>00615A08114D418000F30084</string>
+											<string>00615A0F114D42AE00F30084</string>
+											<string>00615A10114D42AE00F30084</string>
+											<string>00615A11114D42AE00F30084</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -385,18 +386,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1369, 655}}</string>
+								<string>{{0, 0}, {1369, 648}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1440 -111 1680 1011 1440 -150 1680 1050 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>655pt</string>
+							<string>648pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>310pt</string>
+							<string>317pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -410,7 +411,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1369, 283}}</string>
+										<string>{{10, 27}, {1369, 290}}</string>
 										<key>RubberWindowFrame</key>
 										<string>1440 -111 1680 1011 1440 -150 1680 1050 </string>
 									</dict>
@@ -494,11 +495,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>00BB974D114D34E400F6BD0E</string>
+				<string>006159F4114D3FFF00F30084</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>00BB974E114D34E400F6BD0E</string>
+				<string>006159F5114D3FFF00F30084</string>
 				<string>0033A06A0FE3C52100D67CD9</string>
-				<string>00BB974F114D34E400F6BD0E</string>
+				<string>006159F6114D3FFF00F30084</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>

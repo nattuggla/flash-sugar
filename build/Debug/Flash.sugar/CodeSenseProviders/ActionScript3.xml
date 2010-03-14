@@ -32,14 +32,21 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<completions>com.wizaado.classes.DisplayObject</completions>
 		<completions>com.wizaado.classes.EventDispatcher</completions>
 		<complete-match>[a-zA-Z0-9-]*</complete-match>
-		<require-suffix>(\.|\s|^)</require-suffix>
+		<require-suffix>(\.|\s|^)</require-suffix>,
 	</provider>
 	-->
 	<provider>
 		<selector>as3</selector>
 		<completions>com.wizaado.as3.classes</completions>
-		<complete-match capture="2">(^|\:|;|{|new\s+)([a-zA-Z0-9-]*)</complete-match>
-		<require-suffix>(\.|\:|\s|}|^|{)</require-suffix>
+		<complete-match capture="2">(var\s+[a-zA-Z0-9_$]+\:|\)\s?\:|{|new\s+)([a-zA-Z0-9-]*)</complete-match>
+		<require-suffix>(\.|\:|\s|}|^|{|;|\,)</require-suffix>
+	</provider>
+	
+	<provider>
+		<selector>as3 > keyword.definition.class.flash.as3:capture(name)</selector>
+		<completions>com.wizaado.as3.classes.${name}</completions>
+		<complete-match capture="2">(new\s+)([a-zA-Z0-9-]*)</complete-match>
+		<require-suffix>(\.|\:|\s|}|^|{|;|\,)</require-suffix>
 	</provider>
 	
 </codesense>

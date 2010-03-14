@@ -13,6 +13,7 @@
 	<language id="com.asmike.flex3">
         <root-zone>sourcecode.fx3</root-zone>
         <name>Flex 3 MXML</name>
+		<extension>mxml</extension>
         <detectors>
 			<combo>
 				<extension>mxml</extension>
