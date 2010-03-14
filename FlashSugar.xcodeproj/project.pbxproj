@@ -537,12 +537,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = $BUILT_PRODUCTS_DIR/Espresso.app/Contents/MacOS/Espresso;
+				BUNDLE_LOADER = "$(ESPRESSO_PATH)/Contents/MacOS/Espresso";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../Resources/Desktop/Cocoa/BWToolkit\"",
-					"\"$(SRCROOT)/../../../../../Resources/Desktop/Cocoa/BWToolkit/10.5\"",
 					"\"$(SRCROOT)/frameworks\"",
 				);
 				GCC_MODEL_TUNING = G5;
@@ -550,8 +548,8 @@
 				GCC_PREFIX_HEADER = Code/Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				PRODUCT_NAME = ActionScript3;
-				USER_HEADER_SEARCH_PATHS = $BUILT_PRODUCTS_DIR/Espresso.app/Contents/Headers;
+				PRODUCT_NAME = FlashSugar;
+				USER_HEADER_SEARCH_PATHS = "$(ESPRESSO_PATH)/Contents/MacOS/Headers";
 				WRAPPER_EXTENSION = sugar;
 			};
 			name = Release;
