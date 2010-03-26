@@ -1,7 +1,7 @@
 # Flash Sugar Beta 8
-Updated 2/24/2010  
+Updated 3/25/2010  
 Mike Murray [wizaado.com](http://wizaado.com)  
-&copy; 2010 Mike Murray  
+© 2010 Mike Murray  
 License: [GNU GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html)  
 
 ## About
@@ -10,6 +10,13 @@ An Espresso Sugar for ActionScript 3, Flex, and AIR development.
 Integrates with [ActionBuild](http://github.com/zado/ActionBuild) for compiling.
 
 ## ChangeLog
+
+### Beta 8.0.1
+- Reduces instances of codesense window popping up
+- Conforming more closely to elliotcables sugar standards
+- Updated place holder theme
+- Sugar is not correctly named Flash.sugar !not(FlashSugar.sugar)
+- Updated readme in sugar
 
 ### Beta 8
 - Added support for class method / property completion
