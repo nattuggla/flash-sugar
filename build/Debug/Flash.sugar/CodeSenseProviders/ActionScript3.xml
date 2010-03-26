@@ -42,11 +42,4 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<require-suffix>(\.|\:|\s|}|^|{|;|\,)</require-suffix>
 	</provider>
 	
-	<provider>
-		<selector>as3 > keyword.definition.class.flash.as3:capture(name)</selector>
-		<completions>com.wizaado.as3.classes.${name}</completions>
-		<complete-match capture="2">(new\s+)([a-zA-Z0-9-]*)</complete-match>
-		<require-suffix>(\.|\:|\s|}|^|{|;|\,)</require-suffix>
-	</provider>
-	
 </codesense>

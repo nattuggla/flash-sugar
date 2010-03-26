@@ -42,5 +42,4 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<require-suffix>(\.|\:|\s|}|^|{|;|\,)</require-suffix>
 	</provider>
 	
-	
 </codesense>

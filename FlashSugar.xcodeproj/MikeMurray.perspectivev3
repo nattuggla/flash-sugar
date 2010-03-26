@@ -271,6 +271,7 @@
 								<string>00BD857B1133595A0000673C</string>
 								<string>00BD857C1133596B0000673C</string>
 								<string>3D6576110E991DDC009E9EB8</string>
+								<string>001184BD0F7EA6D6003D300C</string>
 								<string>277EC8DA0F2B9AB20061FD60</string>
 								<string>277EC8DC0F2B9AB20061FD60</string>
 								<string>277EC8E00F2B9AB20061FD60</string>
@@ -282,15 +283,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
-									<integer>17</integer>
-									<integer>3</integer>
-									<integer>2</integer>
+									<integer>33</integer>
+									<integer>28</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {289, 952}}</string>
+							<string>{{0, 0}, {289, 722}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -300,14 +299,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {306, 970}}</string>
+						<string>{{0, 0}, {306, 740}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>289</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1440 -111 1680 1011 1440 -150 1680 1050 </string>
+						<string>0 97 1440 781 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -325,7 +324,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>0033A06A0FE3C52100D67CD9</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ActionScript3.xml</string>
+								<string>ActionScript3Syntax.xml</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,11 +332,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>0033A06B0FE3C52100D67CD9</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ActionScript3.xml</string>
+										<string>ActionScript3Syntax.xml</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>00615A18114D432200F30084</string>
+										<string>002CE619115C3275006FA323</string>
 										<key>history</key>
 										<array>
 											<string>00818C87107F01C50044CCD0</string>
@@ -357,22 +356,22 @@
 											<string>00C67BAC1129ACF700DED16C</string>
 											<string>00C67BFB1129D91D00DED16C</string>
 											<string>00BD87DC1133746A0000673C</string>
-											<string>00236CC1113616AA001F4958</string>
 											<string>00236CC3113616AA001F4958</string>
 											<string>00236CC5113616AA001F4958</string>
 											<string>00236CC7113616AA001F4958</string>
 											<string>00236CC8113616AA001F4958</string>
-											<string>00236CCC113616AA001F4958</string>
 											<string>00236CCE113616AA001F4958</string>
 											<string>00236CD0113616AA001F4958</string>
 											<string>00236CD6113616AA001F4958</string>
 											<string>00E4D59B114C0570007F854B</string>
-											<string>00E4D59C114C0570007F854B</string>
 											<string>00BB9875114D393B00F6BD0E</string>
-											<string>00615A08114D418000F30084</string>
-											<string>00615A0F114D42AE00F30084</string>
-											<string>00615A10114D42AE00F30084</string>
-											<string>00615A11114D42AE00F30084</string>
+											<string>00615A1F114D44A900F30084</string>
+											<string>00615A2B114D4A7D00F30084</string>
+											<string>00615A2C114D4A7D00F30084</string>
+											<string>00615A2D114D4A7D00F30084</string>
+											<string>00615A2E114D4A7D00F30084</string>
+											<string>00615A2F114D4A7D00F30084</string>
+											<string>00D200C41159C35E0053756D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -386,18 +385,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1369, 648}}</string>
+								<string>{{0, 0}, {1129, 601}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1440 -111 1680 1011 1440 -150 1680 1050 </string>
+								<string>0 97 1440 781 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>648pt</string>
+							<string>601pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>317pt</string>
+							<string>134pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -411,9 +410,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1369, 290}}</string>
+										<string>{{10, 27}, {1129, 107}}</string>
 										<key>RubberWindowFrame</key>
-										<string>1440 -111 1680 1011 1440 -150 1680 1050 </string>
+										<string>0 97 1440 781 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -476,7 +475,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1369pt</string>
+					<string>1129pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -495,11 +494,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>006159F4114D3FFF00F30084</string>
+				<string>002CE61A115C3275006FA323</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>006159F5114D3FFF00F30084</string>
+				<string>002CE61B115C3275006FA323</string>
 				<string>0033A06A0FE3C52100D67CD9</string>
-				<string>006159F6114D3FFF00F30084</string>
+				<string>002CE61C115C3275006FA323</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -691,7 +690,7 @@
 		<string>/Users/MikeMurray/Projects/Wizaado/FlashSugar/FlashSugar.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1440 -111 1680 1011 1440 -150 1680 1050 </string>
+	<string>0 97 1440 781 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

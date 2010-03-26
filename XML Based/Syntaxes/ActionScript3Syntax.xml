@@ -14,6 +14,7 @@
 	
 	
 	<library>
+		<!-- Package Level -->
 		<collection name="language.as3">
 			<include collection="contaner.import.as3" />
 			<include collection="container.class.as3" />
@@ -29,6 +30,35 @@
 			<include collection="literal.regexp" />
 			<include collection="metadata.comment" />
 			<include collection="statements" />
+			<include collection="identifier.as3" />
+			<include collection="operator.as3" />
+		</collection>
+		
+		<!-- Class / Method level -->
+		<collection name="container.block.subzones.as3">
+			<include collection="metadata.comment.as3" />
+	        <include collection="literal.collection.as3" />
+	        <include collection="container.block.as3" />
+	        <include collection="literal.keyword.as3" />
+	        <include collection="identifier.function.as3" />
+	        <include collection="delimiter.as3" />
+	        <include collection="operator.as3" />
+	        <include collection="identifier.as3" />
+	        <include collection="identifier.class.as3" />
+	        <include collection="literal.string" />
+	        <include collection="literal.numeric" />
+			<include collection="literal.regexp" />
+	        <include collection="keyword.as3" />
+			<include collection="operator.as3" />
+		</collection>
+		
+		<collection name="operator.as3">
+			<zone name="operator.mathematical.as3">
+				<expression>(\+\+?|\=|\-|\*|\/|\%)</expression>
+			</zone>
+			<zone name="operator.comparator.as3">
+				<expression>(\&lt;|\&gt;|\&lt;\=|\&gt;\=|\=\=\=?|!=)</expression>
+			</zone>
 		</collection>
 		
 		<!-- ************************ NEW STUFF -->
@@ -86,9 +116,11 @@
 		<!-- Class -->
 		<collection name="container.class.as3">
 			<zone name="container.class.as3">
-					<expression>\b(class)\s+([a-zA-Z_$]\w*)\s*([a-zA-Z\w\s]*)</expression>
+					<expression>\b(class)\s+([a-zA-Z0-9_$]\w+)(\s+(extends)\s+([a-zA-Z0-9_$]\w+))?</expression>
 					<capture number="1" name="keyword.definition.class.as3" />
-					<capture number="2" name="name.as3" />	
+					<capture number="2" name="name.as3" />
+					<capture number="4" name="keyword.definition.class.extends.as3" />
+					<capture number="5" name="keyword.definition.class.parent.as3" />
 			</zone>
 		</collection>
 		
@@ -111,14 +143,7 @@
 			</zone>
 		</collection>
 		
-		<!-- Function Call -->
-		<collection name="container.method.call.as3">
-			<zone name="container.method.call.as3">
-				<expression>([a-zA-Z_$]\w*)?\s*(\()</expression>
-				<capture number="1" name="keyword.definition.function.as3" />
-				<!--<capture number="2" name="name.as3" />-->
-			</zone>
-		</collection>
+		
 		
 		<!-- Containers from (grabbed from PHP.sugar) -->
 		<collection name="container.block.as3">
@@ -167,10 +192,10 @@
                 </ends-with>
                 <subzones>
                     <zone name="operator.as.as3">
-                        <expression>as</expression>
+                        <expression>\b(as)</expression>
                     </zone>
 					<zone name="operator.in.as3">
-                        <expression>in</expression>
+                        <expression>\b(in)</expression>
                     </zone>
                     <include collection="container.block.subzones.as3" />
                 </subzones>
@@ -244,22 +269,7 @@
             </zone>
         </collection>
 		
-		<collection name="container.block.subzones.as3">
-			<include collection="metadata.comment.as3" />
-	        <include collection="literal.collection.as3" />
-	        <include collection="container.block.as3" />
-	        <include collection="literal.keyword.as3" />
-	        <include collection="identifier.function.as3" />
-	        <include collection="delimiter.as3" />
-	        <include collection="operator.as3" />
-	        <include collection="identifier.variable.as3" />
-	        <include collection="identifier.class.as3" />
-	        <include collection="literal.string.as3" />
-	        <include collection="literal.numeric.as3" />
-			<include collection="literal.regexp" />
-	        <include collection="keyword.as3" />
-			<include collection="keyword.method.call.as3" />
-		</collection>
+		
 		<!-- End from PHP Sugar -->
 		
 		<!-- Delimiters (grabbed from elliottcable's Ruby.sugar) -->
@@ -320,11 +330,11 @@
 				<capture number="1" name="punctuation.definition.begin"/>
 			</zone>
 		</collection>
-		
+				
 		<!-- Keywords -->
 		<collection name="keyword.as3">
 			<zone name="keyword.definition.as3">
-				<expression>\b(package|class|function|import|interface|extends|implements|var|new|this|const|void|as|in)</expression>
+				<expression>\b(package|class|function|import|interface|extends|implements|this|void|as|in)</expression>
 				<capture number="1" name="name" />
 			</zone>
 			<zone name="keyword.definition.class.top-level.as3">
@@ -353,6 +363,23 @@
 			</zone>
 			<zone name="keyword.control.operators.as3">
 				<expression>\b(==|=|&lt;|&lt;)</expression>
+			</zone>
+		</collection>
+		
+		<!-- Literals -->
+		
+		<collection name="identifier.as3">
+			<zone name="identifier.variable.as3">
+				<expression>\b(var|const)\s+([a-zA-Z0-9_$]+)(:([a-zA-Z0-9_$]\w+))?</expression>
+				<capture number="2" name="identifier.variable.instance" />
+				<capture number="4" name="identifier.type" />
+			</zone>
+			<zone name="identifier.class.as3">
+			
+			</zone>
+			<zone name="identifier.function.as3">
+				<expression>([a-zA-Z0-9_$]\w*)?\s*(\()</expression>
+				<capture number="1" name="name" />
 			</zone>
 		</collection>
 		
