@@ -384,9 +384,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* FlashSugar */ = {
+		8D5B49AC048680CD000E48DA /* Flash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "FlashSugar" */;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Flash" */;
 			buildPhases = (
 				8D5B49AF048680CD000E48DA /* Resources */,
 				8D5B49B1048680CD000E48DA /* Sources */,
@@ -400,7 +400,7 @@
 			);
 			dependencies = (
 			);
-			name = FlashSugar;
+			name = Flash;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = CSS;
 			productReference = 8D5B49B6048680CD000E48DA /* Flash.sugar */;
@@ -418,7 +418,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* FlashSugar */,
+				8D5B49AC048680CD000E48DA /* Flash */,
 			);
 		};
 /* End PBXProject section */
@@ -548,7 +548,7 @@
 				GCC_PREFIX_HEADER = Code/Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				PRODUCT_NAME = FlashSugar;
+				PRODUCT_NAME = Flash;
 				USER_HEADER_SEARCH_PATHS = "$(ESPRESSO_PATH)/Contents/MacOS/Headers";
 				WRAPPER_EXTENSION = sugar;
 			};
@@ -591,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "FlashSugar" */ = {
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Flash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB913B08733D840010E9CD /* Debug */,
