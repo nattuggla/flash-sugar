@@ -1,7 +1,7 @@
 # Flash Sugar Beta 8
 Updated 3/25/2010  
 Mike Murray [wizaado.com](http://wizaado.com)  
-© 2010 Mike Murray  
+ï¿½ 2010 Mike Murray  
 License: [GNU GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html)  
 
 ## About
@@ -14,8 +14,9 @@ Integrates with [ActionBuild](http://github.com/zado/ActionBuild) for compiling.
 ### Beta 8.0.1
 - Reduces instances of codesense window popping up
 - Conforming more closely to elliotcables sugar standards
-- Updated place holder theme
-- Sugar is not correctly named Flash.sugar !not(FlashSugar.sugar)
+- Fixed some instances were text has half highlighted
+- Updated placeholder theme
+- Sugar is now correctly named Flash.sugar !not(FlashSugar.sugar)
 - Updated readme in sugar
 
 ### Beta 8
