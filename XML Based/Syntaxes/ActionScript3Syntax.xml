@@ -380,9 +380,21 @@
 			
 			</zone>
 			<zone name="identifier.function.as3">
-				<expression>([a-zA-Z0-9_$]\w*)?\s*(\()</expression>
-				<capture number="1" name="name" />
+				<starts-with>
+					<expression>([a-zA-Z0-9_$]\w*)\s*(\()</expression>
+					<capture number="1" name="name.as3" />
+					<capture number="2" name="delimiter.balanced.parenthesis.condition.begin.as3" />
+				</starts-with>
+				<ends-with>
+					<expression>(\))</expression>
+					<capture number="1" name="delimiter.balanced.parenthesis.condition.end.as3"/>
+				</ends-with>
+				<subzones>
+					<include collection="container.block.subzones.as3" />
+				</subzones>
 			</zone>
+			
+			
 		</collection>
 		
 		<!-- Literals Grabbed from PHP.sugar-->
