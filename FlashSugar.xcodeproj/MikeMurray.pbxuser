@@ -36,11 +36,6 @@
 		name = ActionScript3.css;
 		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/PlaceholderThemes/ActionScript3.css";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1068, 1378}}";
-			sepNavSelRange = "{1185, 0}";
-			sepNavVisRange = "{878, 409}";
-		};
 	};
 	00236CC3113616AA001F4958 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -181,16 +176,11 @@
 		name = Flex3Syntax.xml;
 		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/Syntaxes/Flex3Syntax.xml";
 		sourceTree = "<absolute>";
-	};
-	002CE619115C3275006FA323 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
-		name = "ActionScript3Syntax.xml: 49";
-		rLen = 0;
-		rLoc = 1808;
-		rType = 0;
-		vrLen = 1824;
-		vrLoc = 413;
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 678}}";
+			sepNavSelRange = "{513, 0}";
+			sepNavVisRange = "{0, 1453}";
+		};
 	};
 	002CE62C115C3500006FA323 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -202,7 +192,7 @@
 		vrLen = 1824;
 		vrLoc = 413;
 	};
-	002CE62D115C3500006FA323 /* PBXTextBookmark */ = {
+	002CE69F115C6D7B006FA323 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 00236CC2113616AA001F4958 /* ActionScript3.css */;
 		name = "ActionScript3.css: 84";
@@ -212,25 +202,51 @@
 		vrLen = 409;
 		vrLoc = 878;
 	};
-	002CE633115C3517006FA323 /* PBXTextBookmark */ = {
+	002CE6A0115C6D7B006FA323 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 00236CC2113616AA001F4958 /* ActionScript3.css */;
-		name = "ActionScript3.css: 84";
+		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
+		name = "README.markdown: 20";
 		rLen = 0;
-		rLoc = 1185;
+		rLoc = 646;
 		rType = 0;
-		vrLen = 409;
-		vrLoc = 878;
+		vrLen = 935;
+		vrLoc = 0;
 	};
-	002CE68F115C3569006FA323 /* PBXTextBookmark */ = {
+	002CE6A1115C6D7B006FA323 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 00236CC2113616AA001F4958 /* ActionScript3.css */;
-		name = "ActionScript3.css: 84";
+		fRef = 002CE6A2115C6D7B006FA323 /* README.markdown */;
 		rLen = 0;
-		rLoc = 1185;
+		rLoc = 935;
 		rType = 0;
-		vrLen = 409;
-		vrLoc = 878;
+	};
+	002CE6A2115C6D7B006FA323 /* README.markdown */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = README.markdown;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/README.markdown;
+		sourceTree = "<absolute>";
+	};
+	002CE6A3115C6D7B006FA323 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002CE6A4115C6D7B006FA323 /* README.markdown */;
+		name = "README.markdown: 20";
+		rLen = 0;
+		rLoc = 646;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	002CE6A4115C6D7B006FA323 /* README.markdown */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = README.markdown;
+		path = /Users/MikeMurray/Projects/Wizaado/FlashSugar/README.markdown;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 413}}";
+			sepNavSelRange = "{646, 0}";
+			sepNavVisRange = "{0, 935}";
+		};
 	};
 	0035F5A20F7C2EFB00C8EA8E /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -291,16 +307,6 @@
 		vrLen = 1693;
 		vrLoc = 0;
 	};
-	00615A2D114D4A7D00F30084 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00236CC2113616AA001F4958 /* ActionScript3.css */;
-		name = "ActionScript3.css: 10";
-		rLen = 0;
-		rLoc = 77;
-		rType = 0;
-		vrLen = 493;
-		vrLoc = 0;
-	};
 	00615A2E114D4A7D00F30084 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 00236CDD113616AA001F4958 /* Flex3Syntax.xml */;
@@ -320,23 +326,6 @@
 		rType = 0;
 		vrLen = 1851;
 		vrLoc = 0;
-	};
-	00615AB6114D72AA00F30084 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00615AB7114D72AA00F30084 /* ActionScript3Syntax.xml */;
-		name = "ActionScript3Syntax.xml: 62";
-		rLen = 0;
-		rLoc = 2236;
-		rType = 0;
-		vrLen = 1765;
-		vrLoc = 835;
-	};
-	00615AB7114D72AA00F30084 /* ActionScript3Syntax.xml */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text.xml;
-		name = ActionScript3Syntax.xml;
-		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/Syntaxes/ActionScript3Syntax.xml";
-		sourceTree = "<absolute>";
 	};
 	00818C87107F01C50044CCD0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -400,16 +389,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 716;
-		vrLoc = 0;
-	};
-	00BB9875114D393B00F6BD0E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
-		name = "README.markdown: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 404;
 		vrLoc = 0;
 	};
 	00BB9890114D3FBC00F6BD0E /* ActionScript3.xml */ = {
@@ -524,16 +503,6 @@
 		vrLen = 45;
 		vrLoc = 0;
 	};
-	00D200C41159C35E0053756D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
-		name = "ActionScript3Syntax.xml: 49";
-		rLen = 0;
-		rLoc = 1808;
-		rType = 0;
-		vrLen = 1346;
-		vrLoc = 413;
-	};
 	00D200C51159C35E0053756D /* ActionScript3Syntax.xml */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = text.xml;
@@ -541,10 +510,242 @@
 		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/Syntaxes/ActionScript3Syntax.xml";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1068, 7501}}";
-			sepNavSelRange = "{1808, 0}";
-			sepNavVisRange = "{413, 1824}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 7683}}";
+			sepNavSelRange = "{4770, 0}";
+			sepNavVisRange = "{3728, 2331}";
 		};
+	};
+	00D3D106115E507A00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002CE6A4115C6D7B006FA323 /* README.markdown */;
+		name = "README.markdown: 20";
+		rLen = 0;
+		rLoc = 646;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	00D3D107115E507A00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 49";
+		rLen = 0;
+		rLoc = 1808;
+		rType = 0;
+		vrLen = 1439;
+		vrLoc = 413;
+	};
+	00D3D108115E507A00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 205";
+		rLen = 3;
+		rLoc = 7626;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 7178;
+	};
+	00D3D10E115E578D00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 205";
+		rLen = 3;
+		rLoc = 7626;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 7178;
+	};
+	00D3D10F115E578D00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 269";
+		rLen = 0;
+		rLoc = 10881;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 9957;
+	};
+	00D3D112115E580300F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 207";
+		rLen = 0;
+		rLoc = 7770;
+		rType = 0;
+		vrLen = 2701;
+		vrLoc = 5482;
+	};
+	00D3D117115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D3D118115E5DB900F92822 /* ActionScript3.xml */;
+		name = "ActionScript3.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1993;
+		vrLoc = 1707;
+	};
+	00D3D118115E5DB900F92822 /* ActionScript3.xml */ = {
+		isa = PBXFileReference;
+		name = ActionScript3.xml;
+		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/Itemizers/ActionScript3.xml";
+		sourceTree = "<absolute>";
+	};
+	00D3D119115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D3D11A115E5DB900F92822 /* Flex3.xml */;
+		name = "Flex3.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 66;
+		vrLoc = 0;
+	};
+	00D3D11A115E5DB900F92822 /* Flex3.xml */ = {
+		isa = PBXFileReference;
+		name = Flex3.xml;
+		path = "/Users/MikeMurray/Projects/Wizaado/FlashSugar/XML Based/Itemizers/Flex3.xml";
+		sourceTree = "<absolute>";
+	};
+	00D3D11B115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8E70F2B9AB20061FD60 /* Languages.xml */;
+		name = "Languages.xml: 10";
+		rLen = 0;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	00D3D11C115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 277EC8E60F2B9AB20061FD60 /* README.markdown */;
+		name = "README.markdown: 20";
+		rLen = 0;
+		rLoc = 646;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 0;
+	};
+	00D3D11D115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00236CDD113616AA001F4958 /* Flex3Syntax.xml */;
+		name = "Flex3Syntax.xml: 17";
+		rLen = 0;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 0;
+	};
+	00D3D11E115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 233";
+		rLen = 0;
+		rLoc = 9039;
+		rType = 0;
+		vrLen = 2665;
+		vrLoc = 7715;
+	};
+	00D3D11F115E5DB900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 368";
+		rLen = 0;
+		rLoc = 17712;
+		rType = 0;
+		vrLen = 5269;
+		vrLoc = 13058;
+	};
+	00D3D122115E5E6600F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 369";
+		rLen = 0;
+		rLoc = 17712;
+		rType = 0;
+		vrLen = 5213;
+		vrLoc = 13006;
+	};
+	00D3D127115E5EAE00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 368";
+		rLen = 0;
+		rLoc = 17712;
+		rType = 0;
+		vrLen = 5028;
+		vrLoc = 13640;
+	};
+	00D3D128115E5F1C00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00236CDD113616AA001F4958 /* Flex3Syntax.xml */;
+		name = "Flex3Syntax.xml: 17";
+		rLen = 0;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 0;
+	};
+	00D3D129115E5F1C00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 368";
+		rLen = 0;
+		rLoc = 17712;
+		rType = 0;
+		vrLen = 2663;
+		vrLoc = 7636;
+	};
+	00D3D12A115E5F1C00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 219";
+		rLen = 9;
+		rLoc = 8332;
+		rType = 0;
+		vrLen = 2663;
+		vrLoc = 7636;
+	};
+	00D3D12D115E5F4F00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 337";
+		rLen = 0;
+		rLoc = 13242;
+		rType = 0;
+		vrLen = 5315;
+		vrLoc = 12772;
+	};
+	00D3D130115E5FB000F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 358";
+		rLen = 0;
+		rLoc = 17284;
+		rType = 0;
+		vrLen = 5195;
+		vrLoc = 13033;
+	};
+	00D3D133115E604A00F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 185";
+		rLen = 0;
+		rLoc = 6658;
+		rType = 0;
+		vrLen = 2698;
+		vrLoc = 5324;
+	};
+	00D3D134115E60A900F92822 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00D200C51159C35E0053756D /* ActionScript3Syntax.xml */;
+		name = "ActionScript3Syntax.xml: 148";
+		rLen = 0;
+		rLoc = 4770;
+		rType = 0;
+		vrLen = 2331;
+		vrLoc = 3728;
 	};
 	00E4D59B114C0570007F854B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -579,7 +780,7 @@
 		};
 	};
 	089C1669FE841209C02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeSDKPreference = macosx10.5;
 		activeTarget = 8D5B49AC048680CD000E48DA /* Flash */;
 		addToTargets = (
@@ -632,7 +833,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					890,
+					10,
 					20,
 					48,
 					43,
@@ -687,8 +888,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 291254890;
-			PBXWorkspaceStateSaveDate = 291254890;
+			PBXPerProjectTemplateStateSaveDate = 291356584;
+			PBXWorkspaceStateSaveDate = 291356584;
 		};
 		perUserProjectItems = {
 			000C751511276A0C00D5C140 = 000C751511276A0C00D5C140 /* PBXTextBookmark */;
@@ -701,24 +902,21 @@
 			00236CCE113616AA001F4958 = 00236CCE113616AA001F4958 /* PBXTextBookmark */;
 			00236CD0113616AA001F4958 = 00236CD0113616AA001F4958 /* PBXTextBookmark */;
 			00236CD6113616AA001F4958 = 00236CD6113616AA001F4958 /* PBXTextBookmark */;
-			002CE619115C3275006FA323 /* PBXTextBookmark */ = 002CE619115C3275006FA323 /* PBXTextBookmark */;
-			002CE62C115C3500006FA323 /* PBXTextBookmark */ = 002CE62C115C3500006FA323 /* PBXTextBookmark */;
-			002CE62D115C3500006FA323 /* PBXTextBookmark */ = 002CE62D115C3500006FA323 /* PBXTextBookmark */;
-			002CE633115C3517006FA323 /* PBXTextBookmark */ = 002CE633115C3517006FA323 /* PBXTextBookmark */;
-			002CE68F115C3569006FA323 /* PBXTextBookmark */ = 002CE68F115C3569006FA323 /* PBXTextBookmark */;
+			002CE62C115C3500006FA323 = 002CE62C115C3500006FA323 /* PBXTextBookmark */;
+			002CE69F115C6D7B006FA323 = 002CE69F115C6D7B006FA323 /* PBXTextBookmark */;
+			002CE6A0115C6D7B006FA323 = 002CE6A0115C6D7B006FA323 /* PBXTextBookmark */;
+			002CE6A1115C6D7B006FA323 = 002CE6A1115C6D7B006FA323 /* PBXTextBookmark */;
+			002CE6A3115C6D7B006FA323 = 002CE6A3115C6D7B006FA323 /* PBXTextBookmark */;
 			00615A1F114D44A900F30084 = 00615A1F114D44A900F30084 /* PBXTextBookmark */;
 			00615A2B114D4A7D00F30084 = 00615A2B114D4A7D00F30084 /* PBXTextBookmark */;
 			00615A2C114D4A7D00F30084 = 00615A2C114D4A7D00F30084 /* PBXTextBookmark */;
-			00615A2D114D4A7D00F30084 = 00615A2D114D4A7D00F30084 /* PBXTextBookmark */;
 			00615A2E114D4A7D00F30084 = 00615A2E114D4A7D00F30084 /* PBXTextBookmark */;
 			00615A2F114D4A7D00F30084 = 00615A2F114D4A7D00F30084 /* PBXTextBookmark */;
-			00615AB6114D72AA00F30084 = 00615AB6114D72AA00F30084 /* PBXTextBookmark */;
 			00818C87107F01C50044CCD0 = 00818C87107F01C50044CCD0 /* PBXTextBookmark */;
 			0093D04811275A7900306D21 = 0093D04811275A7900306D21 /* PBXTextBookmark */;
 			0093D04911275A7900306D21 = 0093D04911275A7900306D21 /* PBXTextBookmark */;
 			0093D04D11275A7900306D21 = 0093D04D11275A7900306D21 /* PBXTextBookmark */;
 			0093D05511275AE700306D21 = 0093D05511275AE700306D21 /* PBXTextBookmark */;
-			00BB9875114D393B00F6BD0E = 00BB9875114D393B00F6BD0E /* PBXTextBookmark */;
 			00BD87DC1133746A0000673C = 00BD87DC1133746A0000673C /* PlistBookmark */;
 			00C677D2112798E800DED16C = 00C677D2112798E800DED16C /* PBXTextBookmark */;
 			00C6782411279D9600DED16C = 00C6782411279D9600DED16C /* PBXTextBookmark */;
@@ -728,7 +926,28 @@
 			00C67B2F1128AE9B00DED16C = 00C67B2F1128AE9B00DED16C /* PBXTextBookmark */;
 			00C67BAC1129ACF700DED16C = 00C67BAC1129ACF700DED16C /* PBXTextBookmark */;
 			00C67BFB1129D91D00DED16C = 00C67BFB1129D91D00DED16C /* PBXTextBookmark */;
-			00D200C41159C35E0053756D = 00D200C41159C35E0053756D /* PBXTextBookmark */;
+			00D3D106115E507A00F92822 /* PBXTextBookmark */ = 00D3D106115E507A00F92822 /* PBXTextBookmark */;
+			00D3D107115E507A00F92822 /* PBXTextBookmark */ = 00D3D107115E507A00F92822 /* PBXTextBookmark */;
+			00D3D108115E507A00F92822 /* PBXTextBookmark */ = 00D3D108115E507A00F92822 /* PBXTextBookmark */;
+			00D3D10E115E578D00F92822 /* PBXTextBookmark */ = 00D3D10E115E578D00F92822 /* PBXTextBookmark */;
+			00D3D10F115E578D00F92822 /* PBXTextBookmark */ = 00D3D10F115E578D00F92822 /* PBXTextBookmark */;
+			00D3D112115E580300F92822 /* PBXTextBookmark */ = 00D3D112115E580300F92822 /* PBXTextBookmark */;
+			00D3D117115E5DB900F92822 /* PBXTextBookmark */ = 00D3D117115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D119115E5DB900F92822 /* PBXTextBookmark */ = 00D3D119115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D11B115E5DB900F92822 /* PBXTextBookmark */ = 00D3D11B115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D11C115E5DB900F92822 /* PBXTextBookmark */ = 00D3D11C115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D11D115E5DB900F92822 /* PBXTextBookmark */ = 00D3D11D115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D11E115E5DB900F92822 /* PBXTextBookmark */ = 00D3D11E115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D11F115E5DB900F92822 /* PBXTextBookmark */ = 00D3D11F115E5DB900F92822 /* PBXTextBookmark */;
+			00D3D122115E5E6600F92822 /* PBXTextBookmark */ = 00D3D122115E5E6600F92822 /* PBXTextBookmark */;
+			00D3D127115E5EAE00F92822 /* PBXTextBookmark */ = 00D3D127115E5EAE00F92822 /* PBXTextBookmark */;
+			00D3D128115E5F1C00F92822 /* PBXTextBookmark */ = 00D3D128115E5F1C00F92822 /* PBXTextBookmark */;
+			00D3D129115E5F1C00F92822 /* PBXTextBookmark */ = 00D3D129115E5F1C00F92822 /* PBXTextBookmark */;
+			00D3D12A115E5F1C00F92822 /* PBXTextBookmark */ = 00D3D12A115E5F1C00F92822 /* PBXTextBookmark */;
+			00D3D12D115E5F4F00F92822 /* PBXTextBookmark */ = 00D3D12D115E5F4F00F92822 /* PBXTextBookmark */;
+			00D3D130115E5FB000F92822 /* PBXTextBookmark */ = 00D3D130115E5FB000F92822 /* PBXTextBookmark */;
+			00D3D133115E604A00F92822 /* PBXTextBookmark */ = 00D3D133115E604A00F92822 /* PBXTextBookmark */;
+			00D3D134115E60A900F92822 /* PBXTextBookmark */ = 00D3D134115E60A900F92822 /* PBXTextBookmark */;
 			00E4D59B114C0570007F854B = 00E4D59B114C0570007F854B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 0035F5A20F7C2EFB00C8EA8E /* Source Control */;
@@ -774,15 +993,15 @@
 	};
 	277EC8E60F2B9AB20061FD60 /* README.markdown */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1308, 623}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 404}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 678}}";
+			sepNavSelRange = "{646, 0}";
+			sepNavVisRange = "{0, 935}";
 			sepNavWindowFrame = "{{-1078, 18}, {1035, 825}}";
 		};
 	};
 	277EC8E70F2B9AB20061FD60 /* Languages.xml */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1068, 416}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 678}}";
 			sepNavSelRange = "{265, 0}";
 			sepNavVisRange = "{0, 749}";
 		};

@@ -145,7 +145,7 @@
 		
 		
 		
-		<!-- Containers from (grabbed from PHP.sugar) -->
+		<!-- Containers from (grabbed from PHP.sugar) modified slightly-->
 		<collection name="container.block.as3">
             <zone name="container.block.if.as3">
                 <starts-with>
@@ -182,7 +182,7 @@
             </zone>
             <zone name="container.block.foreach.as3">
                 <starts-with>
-                    <expression>(\bfor\s*each\b)\s*(\()</expression>
+                    <expression>(\bfor\s+each\b)\s*(\()</expression>
                     <capture number="1" name="keyword.control.flow.foreach.as3" />
                     <capture number="2" name="delimiter.balanced.parenthesis.condition.begin.as3" />
                 </starts-with>
@@ -192,10 +192,10 @@
                 </ends-with>
                 <subzones>
                     <zone name="operator.as.as3">
-                        <expression>\b(as)</expression>
+                        <expression>\b(as)\b</expression>
                     </zone>
 					<zone name="operator.in.as3">
-                        <expression>\b(in)</expression>
+                        <expression>\b(in)\b</expression>
                     </zone>
                     <include collection="container.block.subzones.as3" />
                 </subzones>
@@ -230,7 +230,7 @@
             </zone>
             <zone name="container.block.dowhile.as3">
                 
-                    <expression>\b(do)</expression>
+                    <expression>(\bdo\b)</expression>
                     <capture number="1" name="keyword.control.flow.dowhile.as3" />
                     <capture number="2" name="delimiter.balanced.parenthesis.condition.begin.as3" />
 
@@ -334,7 +334,7 @@
 		<!-- Keywords -->
 		<collection name="keyword.as3">
 			<zone name="keyword.definition.as3">
-				<expression>\b(package|class|function|import|interface|extends|implements|this|void|as|in)</expression>
+				<expression>\b(package|class|function|import|interface|extends|implements|this|void|as|in)\b</expression>
 				<capture number="1" name="name" />
 			</zone>
 			<zone name="keyword.definition.class.top-level.as3">
@@ -355,15 +355,17 @@
 			<zone name="keyword.definition.class.air.as3">
 				<expression>\b(ServiceMonitor|SocketMonitor|URLMonitor|ApplicationUpdater|ApplicationUpdaterUI|DownloadErrorEvent|StatusFileUpdateErrorEvent|StatusFileUpdateEvent|StatusUpdateErrorEvent|StatusUpdateEvent|UpdateEvent)\b</expression>
 			</zone>
+			<!--
 			<zone name="keyword.control.flow.as3">
                 <expression>\b(break|case|continue|default|do|else(if)?|for(each)?|if|switch|while|return)</expression>
-            </zone>
+            </zone>-->
 			<zone name="keyword.modifier.scope.as3">
 				<expression>\b(public|private|protected|static|dynamic|override)</expression>
 			</zone>
 			<zone name="keyword.control.operators.as3">
 				<expression>\b(==|=|&lt;|&lt;)</expression>
 			</zone>
+			
 		</collection>
 		
 		<!-- Literals -->

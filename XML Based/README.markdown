@@ -14,8 +14,9 @@ Integrates with [ActionBuild](http://github.com/zado/ActionBuild) for compiling.
 ### Beta 8.0.1
 - Reduces instances of codesense window popping up
 - Conforming more closely to elliotcables sugar standards
-- Updated place holder theme
-- Sugar is not correctly named Flash.sugar !not(FlashSugar.sugar)
+- Fixed some instances were text has half highlighted
+- Updated placeholder theme
+- Sugar is now correctly named Flash.sugar !not(FlashSugar.sugar)
 - Updated readme in sugar
 
 ### Beta 8

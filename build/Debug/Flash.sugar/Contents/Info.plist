@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Flash</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.zado.Sugar.Flash</string>
+	<string>com.asmike.sugar.Flash</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -15,8 +15,8 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleSignature</key>
-	<string>????</string>
+	<string>ASMI</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>Beta 8.0.1</string>
 </dict>
 </plist>
